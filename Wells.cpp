@@ -8,6 +8,7 @@
 #define A 40
 #define N 0.2
 #define VE 0.000005
+#define HALT_DISTANCE 50.0
 
 struct point_2d
 {
@@ -23,6 +24,30 @@ struct point_2d
 	void print() const
 	{
 		std::cout << this->x << " " << this->y << std::endl;
+	}
+};
+
+struct particle
+{
+	point_2d position{0,0};
+	int halted_step;
+
+	particle()
+	{
+		position = point_2d(0, 0);
+		halted_step = -1;
+	}
+
+	particle(const double x, const double y)
+	{
+		position = point_2d(x, y);
+		halted_step = -1;
+	}
+
+	particle(const point_2d& point)
+	{
+		position = point_2d(point.x, point.y);
+		halted_step = -1;
 	}
 };
 
@@ -56,24 +81,41 @@ public:
 	double radius_;
 };
 
-void print_vector(std::vector<point_2d>& vec)
+void print_vector(std::vector<particle>& vec)
 {
-	for (point_2d& p : vec)
+	for (particle& p : vec)
 	{
-		std::cout << p.x << " " << p.y << std::endl;
+		std::cout << p.position.x << " " << p.position.y << std::endl;
 	}
 	std::cout << std::endl;
 }
+
+double get_distance(const point_2d& point1, const point_2d& point2)
+{
+	return sqrt(pow(point1.x - point2.x, 2) + pow(point1.y - point2.y, 2));
+}
+
 void track_contamination(
 	const well well1, 
 	const well well2, 
-	std::vector<point_2d> particles, 
+	std::vector<point_2d> particle_positions,
 	const int steps, 
 	const int deltaT, 
 	const bool inverse = false)
 {
+	std::vector<particle> particles{ particle_positions.size()};
+	
+	for (point_2d p : particle_positions)
+	{
+		particles.emplace_back(p);
+	}
+	
 	// Foreach time step
-	std::cout << "Tracking contamination for " << particles.size() << " particles and " << steps << " time steps." << std::endl;
+	std::cout << "Tracking contamination for " << particles.size() << " particles and " << steps << " time steps. Inverse taracking: " << std::endl;
+	if(inverse)
+	{
+		std::cout << "Performing inverse tracking." << std::endl;
+	}
 	std::cout << "Well 1: " << "(" << well1.center_.x << ", " << well1.center_.y << "), radius=" << well1.radius_ << std::endl;
 	std::cout << "Well 2: " << "(" << well2.center_.x << ", " << well2.center_.y << "), radius=" << well2.radius_ << std::endl << std::endl;
 
@@ -82,14 +124,14 @@ void track_contamination(
 	
 	for (int i = 0; i != steps; i++)
 	{
-		std::cout << "STEP " << i+1 << std::endl;
+		std::cout << "STEP " << i << std::endl;
 		// For each particle
-		for (int j = 0; j != particles.size(); j++)
+		for (unsigned int j = 0; j != particles.size(); j++)
 		{
 			const double c = Q / (2 * A * N * PI);
 
-			const double particle_x = particles[j].x;
-			const double particle_y = particles[j].y;
+			const double particle_x = particles[j].position.x;
+			const double particle_y = particles[j].position.y;
 
 			const double well1_x = well1.center_.x;
 			const double well1_y = well1.center_.y;
@@ -113,16 +155,36 @@ void track_contamination(
 			double vx = c * (p1_x + p2_x);
 			double vy = c * (p1_y + p2_y);
 
+			double inverse_modifier = 1.0;
+
 			if(inverse)
 			{
 				vx *= -1;
 				vy *= -1;
+				inverse_modifier = -1;
+			}
+
+			const double new_position_x = particle_x + (vx * deltaT);
+			const double new_position_y = particle_y + (vy * deltaT) + (VE * deltaT * inverse_modifier);
+
+			if(particles[j].halted_step != -1)
+			{
+				printf("particle=%3d | newX=%10.4f | newY=%10.4f | HALT AT STEP=%2d\n", j, particles[j].position.x, particles[j].position.y, particles[j].halted_step);
+				continue;
 			}
 			
-			particles[j].x = particle_x + (vx * deltaT);
-			particles[j].y = particle_y + (vy * deltaT) + (VE * deltaT);
+			// If the new position of the particle resutls in a distance shorter than (HALT_DISTANCE), skip and goto next particle
+			if (get_distance(well1.center_, point_2d(new_position_x, new_position_y)) < HALT_DISTANCE)
+			{
+				printf("Particle %3d is halted at position (%10.4f, %10.4f)\n", j, particle_x, particle_y);
+				particles[j].halted_step = i;
+				continue;
+			}
+			
+			particles[j].position.x = particle_x + (vx * deltaT);
+			particles[j].position.y = particle_y + (vy * deltaT) + (VE * deltaT * inverse_modifier);
 
-			std::cout << "oldX=" << particle_x << "\toldY=" << particle_y << "\tVX=" << vx << "\tVY=" << vy << "\tnewX=" << particles[j].x << "\tnewY=" << particles[j].y << std::endl;
+			printf("particle=%3d | newX=%10.4f | newY=%10.4f\n", j, particles[j].position.x, particles[j].position.y);
 		}
 	}
 }
