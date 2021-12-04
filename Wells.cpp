@@ -2,6 +2,8 @@
 #include <vector>
 #include <cmath>
 
+#pragma warning(disable:4996)
+
 #define PI 3.14159265358979323846
 #define Q 0.03
 #define K 0.0001
@@ -81,29 +83,21 @@ public:
 	double radius_;
 };
 
-void print_vector(std::vector<particle>& vec)
-{
-	for (particle& p : vec)
-	{
-		std::cout << p.position.x << " " << p.position.y << std::endl;
-	}
-	std::cout << std::endl;
-}
-
 double get_distance(const point_2d& point1, const point_2d& point2)
 {
 	return sqrt(pow(point1.x - point2.x, 2) + pow(point1.y - point2.y, 2));
 }
 
 void track_contamination(
+	FILE* f,
 	const well well1, 
-	const well well2, 
-	std::vector<point_2d> particle_positions,
+	const well well2,
+	const std::vector<point_2d>& particle_positions,
 	const int steps, 
 	const int deltaT, 
 	const bool inverse = false)
 {
-	std::vector<particle> particles{ particle_positions.size()};
+	std::vector<particle> particles;
 	
 	for (point_2d p : particle_positions)
 	{
@@ -111,20 +105,19 @@ void track_contamination(
 	}
 	
 	// Foreach time step
-	std::cout << "Tracking contamination for " << particles.size() << " particles and " << steps << " time steps. Inverse taracking: " << std::endl;
-	if(inverse)
-	{
-		std::cout << "Performing inverse tracking." << std::endl;
-	}
-	std::cout << "Well 1: " << "(" << well1.center_.x << ", " << well1.center_.y << "), radius=" << well1.radius_ << std::endl;
-	std::cout << "Well 2: " << "(" << well2.center_.x << ", " << well2.center_.y << "), radius=" << well2.radius_ << std::endl << std::endl;
+	fprintf(f, "Tracking contamination for %3d particles and %3d time steps. Reverse tracking: %s\n", particles.size(), steps, inverse ? "Enabled" : "Disabled");
+	fprintf(f, "Well 1 | Center = (%10.4f, %10.4f), Radius=%10.4f\n", well1.center_.x, well1.center_.y, well1.radius_);
+	fprintf(f, "Well 2 | Center = (%10.4f, %10.4f), Radius=%10.4f\n", well2.center_.x, well2.center_.y, well2.radius_);
 
-	std::cout << "Initial particle positions: " << std::endl;
-	print_vector(particles);
+	fprintf(f, "Initial particle positions: \n");
+	for(int i = 0; i != particles.size(); ++i)
+	{
+		fprintf(f, "particle=%3d | x=%10.4f | Y=%10.4f\n", i, particles[i].position.x, particles[i].position.y);
+	}
 	
 	for (int i = 0; i != steps; i++)
 	{
-		std::cout << "STEP " << i << std::endl;
+		fprintf(f, "STEP %3d\n", i);
 		// For each particle
 		for (unsigned int j = 0; j != particles.size(); j++)
 		{
@@ -169,14 +162,14 @@ void track_contamination(
 
 			if(particles[j].halted_step != -1)
 			{
-				printf("particle=%3d | newX=%10.4f | newY=%10.4f | HALT AT STEP=%2d\n", j, particles[j].position.x, particles[j].position.y, particles[j].halted_step);
+				fprintf(f, "particle=%3d | newX=%10.4f | newY=%10.4f | HALT AT STEP=%2d\n", j, particles[j].position.x, particles[j].position.y, particles[j].halted_step);
 				continue;
 			}
 			
 			// If the new position of the particle resutls in a distance shorter than (HALT_DISTANCE), skip and goto next particle
 			if (get_distance(well1.center_, point_2d(new_position_x, new_position_y)) < HALT_DISTANCE)
 			{
-				printf("Particle %3d is halted at position (%10.4f, %10.4f)\n", j, particle_x, particle_y);
+				fprintf(f, "Particle %3d is halted at position (%10.4f, %10.4f)\n", j, particle_x, particle_y);
 				particles[j].halted_step = i;
 				continue;
 			}
@@ -184,13 +177,21 @@ void track_contamination(
 			particles[j].position.x = particle_x + (vx * deltaT);
 			particles[j].position.y = particle_y + (vy * deltaT) + (VE * deltaT * inverse_modifier);
 
-			printf("particle=%3d | newX=%10.4f | newY=%10.4f\n", j, particles[j].position.x, particles[j].position.y);
+			fprintf(f, "particle=%3d | newX=%10.4f | newY=%10.4f\n", j, particles[j].position.x, particles[j].position.y);
 		}
 	}
 }
 
 int main()
 {
+	FILE* file = fopen("output.txt", "w");
+
+	if(!file)
+	{
+		std::cout << "Could not open output.txt file for writing." << std::endl;
+		return 0;
+	}
+	
 	const int steps = 92;
 	const int particle_count = 10;
 
@@ -218,7 +219,7 @@ int main()
 		point_2d(1050.0, 150.0),
 	};
 
-	track_contamination(well1, well2, particles1, 92, 1728000);
+	track_contamination(file, well1, well2, particles1, 92, 1728000);
 
 
 	const std::vector<point_2d> particles2 =
@@ -241,7 +242,7 @@ int main()
 		point_2d(350.00,	100.00),
 	};
 
-	track_contamination(well1, well2, particles2, 72, 1296000);
+	track_contamination(file, well1, well2, particles2, 72, 1296000);
 
 	
 	const std::vector<point_2d> particles3 =
@@ -258,7 +259,7 @@ int main()
 		point_2d(125.00, 1195.00),
 	};
 
-	track_contamination(well1, well2, particles3, 92, 1728000, true);
+	track_contamination(file, well1, well2, particles3, 92, 1728000, true);
 
 
 	const std::vector<point_2d> particles4 =
@@ -275,7 +276,7 @@ int main()
 		point_2d(325.00,	695.00)
 	};
 
-	track_contamination(well1, well2, particles4, 92, 1296000, true);
+	track_contamination(file, well1, well2, particles4, 92, 1296000, true);
 
 	const std::vector<point_2d> particles5 =
 	{
@@ -291,7 +292,7 @@ int main()
 		point_2d(825,	1095),
 	};
 
-	track_contamination(well1, well2, particles5, 92, 1728000, true);
+	track_contamination(file, well1, well2, particles5, 92, 1728000, true);
 
 	const std::vector<point_2d> particles6 =
 	{
@@ -307,5 +308,7 @@ int main()
 		point_2d(1225.00, 995.00),
 	};
 
-	track_contamination(well1, well2, particles6, 92, 1728000, true);
+	track_contamination(file, well1, well2, particles6, 92, 1728000, true);
+
+	fclose(file);
 }
