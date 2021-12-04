@@ -242,7 +242,7 @@ int main()
 		point_2d(350.00,	100.00),
 	};
 
-	track_contamination(file, well1, well2, particles2, 72, 1296000);
+	track_contamination(file, well1, well2, particles2, 92, 1296000);
 
 	
 	const std::vector<point_2d> particles3 =
