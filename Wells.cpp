@@ -169,7 +169,15 @@ void track_contamination(
 			// If the new position of the particle resutls in a distance shorter than (HALT_DISTANCE), skip and goto next particle
 			if (get_distance(well1.center_, point_2d(new_position_x, new_position_y)) < HALT_DISTANCE)
 			{
-				fprintf(f, "Particle %3d is halted at position (%10.4f, %10.4f)\n", j, particle_x, particle_y);
+				fprintf(f, "Particle %3d is halted at position (%10.4f, %10.4f) due to being close to well 1\n", j, particle_x, particle_y);
+				particles[j].halted_step = i;
+				continue;
+			}
+
+			// Same for well 2
+			if (get_distance(well2.center_, point_2d(new_position_x, new_position_y)) < HALT_DISTANCE)
+			{
+				fprintf(f, "Particle %3d is halted at position (%10.4f, %10.4f) due to being close to well 2\n", j, particle_x, particle_y);
 				particles[j].halted_step = i;
 				continue;
 			}
