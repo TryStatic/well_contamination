@@ -4191,7 +4191,7 @@ particle=  5 | newX=  259.2950 | newY=  152.7636
 particle=  6 | newX=  263.4527 | newY=  149.0573
 particle=  7 | newX=  267.5293 | newY=  145.2029
 particle=  8 | newX=  271.5174 | newY=  141.1842
-particle=  9 | newX=  275.4088 | newY=  136.9819
+Particle   9 is halted at position (  266.4682,   158.8666) due to being close to well 2
 Tracking contamination for  10 particles and  92 time steps. Reverse tracking: Enabled
 Well 1 | Center = ( 1000.0000,   150.0000), Radius=   50.0000
 Well 2 | Center = (  300.0000,   100.0000), Radius=   50.0000
@@ -4823,401 +4823,401 @@ particle=  7 | newX=  335.0997 | newY=  155.9937
 particle=  8 | newX=  338.1313 | newY=  157.5394
 particle=  9 | newX=  341.2804 | newY=  159.1413
 STEP  56
-particle=  0 | newX=  313.2036 | newY=  127.2478
-particle=  1 | newX=  315.0902 | newY=  128.5510
-particle=  2 | newX=  317.1492 | newY=  130.0604
-particle=  3 | newX=  319.3850 | newY=  131.7418
-particle=  4 | newX=  321.7972 | newY=  133.5627
-particle=  5 | newX=  324.3823 | newY=  135.4939
-particle=  6 | newX=  327.1345 | newY=  137.5092
-particle=  7 | newX=  330.0464 | newY=  139.5861
+Particle   0 is halted at position (  317.1829,   148.0069) due to being close to well 2
+Particle   1 is halted at position (  319.4109,   148.7285) due to being close to well 2
+Particle   2 is halted at position (  321.7388,   149.6182) due to being close to well 2
+Particle   3 is halted at position (  324.1753,   150.6593) due to being close to well 2
+Particle   4 is halted at position (  326.7267,   151.8342) due to being close to well 2
+Particle   5 is halted at position (  329.3969,   153.1259) due to being close to well 2
+Particle   6 is halted at position (  332.1878,   154.5176) due to being close to well 2
+Particle   7 is halted at position (  335.0997,   155.9937) due to being close to well 2
 particle=  8 | newX=  333.1097 | newY=  141.7053
 particle=  9 | newX=  336.3161 | newY=  143.8508
 STEP  57
-particle=  0 | newX=  303.1886 | newY=   97.8159
-particle=  1 | newX=  305.0261 | newY=  100.9301
-particle=  2 | newX=  307.2060 | newY=  104.2004
-particle=  3 | newX=  309.6814 | newY=  107.5436
-particle=  4 | newX=  312.4099 | newY=  110.9010
-particle=  5 | newX=  315.3560 | newY=  114.2328
-particle=  6 | newX=  318.4908 | newY=  117.5134
-particle=  7 | newX=  321.7908 | newY=  120.7267
-particle=  8 | newX=  325.2377 | newY=  123.8634
-particle=  9 | newX=  328.8163 | newY=  126.9186
+particle=  0 | newX=  317.1829 | newY=  148.0069 | HALT AT STEP=56
+particle=  1 | newX=  319.4109 | newY=  148.7285 | HALT AT STEP=56
+particle=  2 | newX=  321.7388 | newY=  149.6182 | HALT AT STEP=56
+particle=  3 | newX=  324.1753 | newY=  150.6593 | HALT AT STEP=56
+particle=  4 | newX=  326.7267 | newY=  151.8342 | HALT AT STEP=56
+particle=  5 | newX=  329.3969 | newY=  153.1259 | HALT AT STEP=56
+particle=  6 | newX=  332.1878 | newY=  154.5176 | HALT AT STEP=56
+particle=  7 | newX=  335.0997 | newY=  155.9937 | HALT AT STEP=56
+Particle   8 is halted at position (  333.1097,   141.7053) due to being close to well 2
+Particle   9 is halted at position (  336.3161,   143.8508) due to being close to well 2
 STEP  58
-particle=  0 | newX=  139.1803 | newY=  204.5142
-particle=  1 | newX=  157.3337 | newY=   66.9908
-particle=  2 | newX=  228.1991 | newY=   51.0929
-particle=  3 | newX=  261.0847 | newY=   62.3967
-particle=  4 | newX=  278.3491 | newY=   73.5805
-particle=  5 | newX=  289.3881 | newY=   82.6989
-particle=  6 | newX=  297.5728 | newY=   90.2025
-particle=  7 | newX=  304.2932 | newY=   96.5699
-particle=  8 | newX=  310.2010 | newY=  102.1276
-particle=  9 | newX=  315.6334 | newY=  107.0882
+particle=  0 | newX=  317.1829 | newY=  148.0069 | HALT AT STEP=56
+particle=  1 | newX=  319.4109 | newY=  148.7285 | HALT AT STEP=56
+particle=  2 | newX=  321.7388 | newY=  149.6182 | HALT AT STEP=56
+particle=  3 | newX=  324.1753 | newY=  150.6593 | HALT AT STEP=56
+particle=  4 | newX=  326.7267 | newY=  151.8342 | HALT AT STEP=56
+particle=  5 | newX=  329.3969 | newY=  153.1259 | HALT AT STEP=56
+particle=  6 | newX=  332.1878 | newY=  154.5176 | HALT AT STEP=56
+particle=  7 | newX=  335.0997 | newY=  155.9937 | HALT AT STEP=56
+particle=  8 | newX=  333.1097 | newY=  141.7053 | HALT AT STEP=57
+particle=  9 | newX=  336.3161 | newY=  143.8508 | HALT AT STEP=57
 STEP  59
-particle=  0 | newX=  143.4568 | newY=  195.7799
-particle=  1 | newX=  163.3890 | newY=   61.7910
-particle=  2 | newX=  236.5437 | newY=   49.7516
-particle=  3 | newX=  272.3958 | newY=   65.9713
-particle=  4 | newX=  293.7624 | newY=   84.7275
-particle=  5 | newX=  310.3926 | newY=  108.8069
-particle=  6 | newX=  317.0936 | newY=  158.1982
-particle=  7 | newX=  195.4293 | newY=  178.0358
-particle=  8 | newX=  238.6525 | newY=   80.5699
-particle=  9 | newX=  275.7191 | newY=   82.0712
+particle=  0 | newX=  317.1829 | newY=  148.0069 | HALT AT STEP=56
+particle=  1 | newX=  319.4109 | newY=  148.7285 | HALT AT STEP=56
+particle=  2 | newX=  321.7388 | newY=  149.6182 | HALT AT STEP=56
+particle=  3 | newX=  324.1753 | newY=  150.6593 | HALT AT STEP=56
+particle=  4 | newX=  326.7267 | newY=  151.8342 | HALT AT STEP=56
+particle=  5 | newX=  329.3969 | newY=  153.1259 | HALT AT STEP=56
+particle=  6 | newX=  332.1878 | newY=  154.5176 | HALT AT STEP=56
+particle=  7 | newX=  335.0997 | newY=  155.9937 | HALT AT STEP=56
+particle=  8 | newX=  333.1097 | newY=  141.7053 | HALT AT STEP=57
+particle=  9 | newX=  336.3161 | newY=  143.8508 | HALT AT STEP=57
 STEP  60
-particle=  0 | newX=  147.9524 | newY=  187.0521
-particle=  1 | newX=  169.5546 | newY=   56.8762
-particle=  2 | newX=  245.0314 | newY=   49.3348
-particle=  3 | newX=  284.5659 | newY=   73.3217
-particle=  4 | newX=  312.5760 | newY=  121.7536
-particle=  5 | newX=  268.1915 | newY=   65.6843
-particle=  6 | newX=  314.6325 | newY=  139.4694
-particle=  7 | newX=  201.1405 | newY=  167.9769
-particle=  8 | newX=  251.1190 | newY=   77.8110
-particle=  9 | newX=  297.3935 | newY=   90.9130
+particle=  0 | newX=  317.1829 | newY=  148.0069 | HALT AT STEP=56
+particle=  1 | newX=  319.4109 | newY=  148.7285 | HALT AT STEP=56
+particle=  2 | newX=  321.7388 | newY=  149.6182 | HALT AT STEP=56
+particle=  3 | newX=  324.1753 | newY=  150.6593 | HALT AT STEP=56
+particle=  4 | newX=  326.7267 | newY=  151.8342 | HALT AT STEP=56
+particle=  5 | newX=  329.3969 | newY=  153.1259 | HALT AT STEP=56
+particle=  6 | newX=  332.1878 | newY=  154.5176 | HALT AT STEP=56
+particle=  7 | newX=  335.0997 | newY=  155.9937 | HALT AT STEP=56
+particle=  8 | newX=  333.1097 | newY=  141.7053 | HALT AT STEP=57
+particle=  9 | newX=  336.3161 | newY=  143.8508 | HALT AT STEP=57
 STEP  61
-particle=  0 | newX=  152.6898 | newY=  178.3391
-particle=  1 | newX=  175.8199 | newY=   52.2664
-particle=  2 | newX=  253.6461 | newY=   50.0014
-particle=  3 | newX=  298.2020 | newY=   88.6791
-particle=  4 | newX=  298.2925 | newY=   88.6695
-particle=  5 | newX=  280.4725 | newY=   71.4482
-particle=  6 | newX=  309.3734 | newY=  115.7775
-particle=  7 | newX=  207.4207 | newY=  157.8222
-particle=  8 | newX=  265.2627 | newY=   77.3855
-particle=  9 | newX=  321.0464 | newY=  163.1746
+particle=  0 | newX=  317.1829 | newY=  148.0069 | HALT AT STEP=56
+particle=  1 | newX=  319.4109 | newY=  148.7285 | HALT AT STEP=56
+particle=  2 | newX=  321.7388 | newY=  149.6182 | HALT AT STEP=56
+particle=  3 | newX=  324.1753 | newY=  150.6593 | HALT AT STEP=56
+particle=  4 | newX=  326.7267 | newY=  151.8342 | HALT AT STEP=56
+particle=  5 | newX=  329.3969 | newY=  153.1259 | HALT AT STEP=56
+particle=  6 | newX=  332.1878 | newY=  154.5176 | HALT AT STEP=56
+particle=  7 | newX=  335.0997 | newY=  155.9937 | HALT AT STEP=56
+particle=  8 | newX=  333.1097 | newY=  141.7053 | HALT AT STEP=57
+particle=  9 | newX=  336.3161 | newY=  143.8508 | HALT AT STEP=57
 STEP  62
-particle=  0 | newX=  157.6949 | newY=  169.6519
-particle=  1 | newX=  182.1723 | newY=   47.9822
-particle=  2 | newX=  262.3773 | newY=   51.9774
-particle=  3 | newX=  309.8802 | newY=  148.9383
-particle=  4 | newX=  309.4457 | newY=  149.0357
-particle=  5 | newX=  294.1583 | newY=   83.5414
-particle=  6 | newX=  288.9631 | newY=   73.1173
-particle=  7 | newX=  214.4069 | newY=  147.5787
-particle=  8 | newX=  281.9442 | newY=   81.1897
-particle=  9 | newX=  318.5137 | newY=  145.6519
+particle=  0 | newX=  317.1829 | newY=  148.0069 | HALT AT STEP=56
+particle=  1 | newX=  319.4109 | newY=  148.7285 | HALT AT STEP=56
+particle=  2 | newX=  321.7388 | newY=  149.6182 | HALT AT STEP=56
+particle=  3 | newX=  324.1753 | newY=  150.6593 | HALT AT STEP=56
+particle=  4 | newX=  326.7267 | newY=  151.8342 | HALT AT STEP=56
+particle=  5 | newX=  329.3969 | newY=  153.1259 | HALT AT STEP=56
+particle=  6 | newX=  332.1878 | newY=  154.5176 | HALT AT STEP=56
+particle=  7 | newX=  335.0997 | newY=  155.9937 | HALT AT STEP=56
+particle=  8 | newX=  333.1097 | newY=  141.7053 | HALT AT STEP=57
+particle=  9 | newX=  336.3161 | newY=  143.8508 | HALT AT STEP=57
 STEP  63
-particle=  0 | newX=  162.9977 | newY=  161.0042
-particle=  1 | newX=  188.5975 | newY=   44.0438
-particle=  2 | newX=  271.2271 | newY=   55.6151
-particle=  3 | newX=  307.9350 | newY=  127.2735
-particle=  4 | newX=  307.6360 | newY=  127.3476
-particle=  5 | newX=  310.0588 | newY=  118.9019
-particle=  6 | newX=  300.1473 | newY=   91.3761
-particle=  7 | newX=  222.2951 | newY=  137.2642
-particle=  8 | newX=  303.5547 | newY=   96.2135
-particle=  9 | newX=  313.7479 | newY=  124.6288
+particle=  0 | newX=  317.1829 | newY=  148.0069 | HALT AT STEP=56
+particle=  1 | newX=  319.4109 | newY=  148.7285 | HALT AT STEP=56
+particle=  2 | newX=  321.7388 | newY=  149.6182 | HALT AT STEP=56
+particle=  3 | newX=  324.1753 | newY=  150.6593 | HALT AT STEP=56
+particle=  4 | newX=  326.7267 | newY=  151.8342 | HALT AT STEP=56
+particle=  5 | newX=  329.3969 | newY=  153.1259 | HALT AT STEP=56
+particle=  6 | newX=  332.1878 | newY=  154.5176 | HALT AT STEP=56
+particle=  7 | newX=  335.0997 | newY=  155.9937 | HALT AT STEP=56
+particle=  8 | newX=  333.1097 | newY=  141.7053 | HALT AT STEP=57
+particle=  9 | newX=  336.3161 | newY=  143.8508 | HALT AT STEP=57
 STEP  64
-particle=  0 | newX=  168.6333 | newY=  152.4141
-particle=  1 | newX=  195.0792 | newY=   40.4711
-particle=  2 | newX=  280.2254 | newY=   61.5408
-particle=  3 | newX=  301.4441 | newY=   94.6829
-particle=  4 | newX=  301.4257 | newY=   94.6659
-particle=  5 | newX=  294.2069 | newY=   80.5820
-particle=  6 | newX=  299.7131 | newY=  174.6533
-particle=  7 | newX=  231.3825 | newY=  126.9194
-particle=  8 | newX=  202.7233 | newY=  198.4005
-particle=  9 | newX=  301.5074 | newY=   94.2455
+particle=  0 | newX=  317.1829 | newY=  148.0069 | HALT AT STEP=56
+particle=  1 | newX=  319.4109 | newY=  148.7285 | HALT AT STEP=56
+particle=  2 | newX=  321.7388 | newY=  149.6182 | HALT AT STEP=56
+particle=  3 | newX=  324.1753 | newY=  150.6593 | HALT AT STEP=56
+particle=  4 | newX=  326.7267 | newY=  151.8342 | HALT AT STEP=56
+particle=  5 | newX=  329.3969 | newY=  153.1259 | HALT AT STEP=56
+particle=  6 | newX=  332.1878 | newY=  154.5176 | HALT AT STEP=56
+particle=  7 | newX=  335.0997 | newY=  155.9937 | HALT AT STEP=56
+particle=  8 | newX=  333.1097 | newY=  141.7053 | HALT AT STEP=57
+particle=  9 | newX=  336.3161 | newY=  143.8508 | HALT AT STEP=57
 STEP  65
-particle=  0 | newX=  174.6431 | newY=  143.9048
-particle=  1 | newX=  201.5996 | newY=   37.2837
-particle=  2 | newX=  289.4628 | newY=   71.0976
-particle=  3 | newX=  265.7486 | newY=  223.7688
-particle=  4 | newX=  266.3513 | newY=  223.6129
-particle=  5 | newX=  306.2049 | newY=  110.7869
-particle=  6 | newX=  300.8560 | newY=  157.7735
-particle=  7 | newX=  242.1569 | newY=  116.6371
-particle=  8 | newX=  207.6200 | newY=  187.8864
-particle=  9 | newX=  269.6589 | newY=  213.6386
+particle=  0 | newX=  317.1829 | newY=  148.0069 | HALT AT STEP=56
+particle=  1 | newX=  319.4109 | newY=  148.7285 | HALT AT STEP=56
+particle=  2 | newX=  321.7388 | newY=  149.6182 | HALT AT STEP=56
+particle=  3 | newX=  324.1753 | newY=  150.6593 | HALT AT STEP=56
+particle=  4 | newX=  326.7267 | newY=  151.8342 | HALT AT STEP=56
+particle=  5 | newX=  329.3969 | newY=  153.1259 | HALT AT STEP=56
+particle=  6 | newX=  332.1878 | newY=  154.5176 | HALT AT STEP=56
+particle=  7 | newX=  335.0997 | newY=  155.9937 | HALT AT STEP=56
+particle=  8 | newX=  333.1097 | newY=  141.7053 | HALT AT STEP=57
+particle=  9 | newX=  336.3161 | newY=  143.8508 | HALT AT STEP=57
 STEP  66
-particle=  0 | newX=  181.0763 | newY=  135.5067
-particle=  1 | newX=  208.1393 | newY=   34.5005
-particle=  2 | newX=  299.1504 | newY=   88.3594
-particle=  3 | newX=  268.3980 | newY=  211.3791
-particle=  4 | newX=  268.9810 | newY=  211.2024
-particle=  5 | newX=  276.3236 | newY=   50.4905
-particle=  6 | newX=  301.7639 | newY=  137.8958
-particle=  7 | newX=  255.5261 | newY=  106.6496
-particle=  8 | newX=  212.9890 | newY=  177.1785
-particle=  9 | newX=  272.4064 | newY=  200.7134
+particle=  0 | newX=  317.1829 | newY=  148.0069 | HALT AT STEP=56
+particle=  1 | newX=  319.4109 | newY=  148.7285 | HALT AT STEP=56
+particle=  2 | newX=  321.7388 | newY=  149.6182 | HALT AT STEP=56
+particle=  3 | newX=  324.1753 | newY=  150.6593 | HALT AT STEP=56
+particle=  4 | newX=  326.7267 | newY=  151.8342 | HALT AT STEP=56
+particle=  5 | newX=  329.3969 | newY=  153.1259 | HALT AT STEP=56
+particle=  6 | newX=  332.1878 | newY=  154.5176 | HALT AT STEP=56
+particle=  7 | newX=  335.0997 | newY=  155.9937 | HALT AT STEP=56
+particle=  8 | newX=  333.1097 | newY=  141.7053 | HALT AT STEP=57
+particle=  9 | newX=  336.3161 | newY=  143.8508 | HALT AT STEP=57
 STEP  67
-particle=  0 | newX=  187.9923 | newY=  127.2605
-particle=  1 | newX=  214.6780 | newY=   32.1403
-particle=  2 | newX=  305.0698 | newY=  148.0714
-particle=  3 | newX=  271.2715 | newY=  198.3837
-particle=  4 | newX=  271.8319 | newY=  198.1809
-particle=  5 | newX=  283.4533 | newY=   56.8700
-particle=  6 | newX=  301.9234 | newY=  111.0680
-particle=  7 | newX=  273.5733 | newY=   97.6864
-particle=  8 | newX=  218.9459 | newY=  166.2516
-particle=  9 | newX=  275.4217 | newY=  187.0157
+particle=  0 | newX=  317.1829 | newY=  148.0069 | HALT AT STEP=56
+particle=  1 | newX=  319.4109 | newY=  148.7285 | HALT AT STEP=56
+particle=  2 | newX=  321.7388 | newY=  149.6182 | HALT AT STEP=56
+particle=  3 | newX=  324.1753 | newY=  150.6593 | HALT AT STEP=56
+particle=  4 | newX=  326.7267 | newY=  151.8342 | HALT AT STEP=56
+particle=  5 | newX=  329.3969 | newY=  153.1259 | HALT AT STEP=56
+particle=  6 | newX=  332.1878 | newY=  154.5176 | HALT AT STEP=56
+particle=  7 | newX=  335.0997 | newY=  155.9937 | HALT AT STEP=56
+particle=  8 | newX=  333.1097 | newY=  141.7053 | HALT AT STEP=57
+particle=  9 | newX=  336.3161 | newY=  143.8508 | HALT AT STEP=57
 STEP  68
-particle=  0 | newX=  195.4637 | newY=  119.2204
-particle=  1 | newX=  221.1942 | newY=   30.2214
-particle=  2 | newX=  304.5046 | newY=  125.6809
-particle=  3 | newX=  274.4436 | newY=  184.5892
-particle=  4 | newX=  274.9779 | newY=  184.3518
-particle=  5 | newX=  290.5124 | newY=   66.1610
-particle=  6 | newX=  291.2396 | newY=   36.8129
-particle=  7 | newX=  303.6794 | newY=   93.8257
-particle=  8 | newX=  225.6566 | newY=  155.0750
-particle=  9 | newX=  278.8117 | newY=  172.2490
+particle=  0 | newX=  317.1829 | newY=  148.0069 | HALT AT STEP=56
+particle=  1 | newX=  319.4109 | newY=  148.7285 | HALT AT STEP=56
+particle=  2 | newX=  321.7388 | newY=  149.6182 | HALT AT STEP=56
+particle=  3 | newX=  324.1753 | newY=  150.6593 | HALT AT STEP=56
+particle=  4 | newX=  326.7267 | newY=  151.8342 | HALT AT STEP=56
+particle=  5 | newX=  329.3969 | newY=  153.1259 | HALT AT STEP=56
+particle=  6 | newX=  332.1878 | newY=  154.5176 | HALT AT STEP=56
+particle=  7 | newX=  335.0997 | newY=  155.9937 | HALT AT STEP=56
+particle=  8 | newX=  333.1097 | newY=  141.7053 | HALT AT STEP=57
+particle=  9 | newX=  336.3161 | newY=  143.8508 | HALT AT STEP=57
 STEP  69
-particle=  0 | newX=  203.5810 | newY=  111.4611
-particle=  1 | newX=  227.6662 | newY=   28.7621
-particle=  2 | newX=  300.4900 | newY=   90.0195
-particle=  3 | newX=  278.0389 | newY=  169.6793
-particle=  4 | newX=  278.5425 | newY=  169.3932
-particle=  5 | newX=  297.5293 | newY=   81.0002
-particle=  6 | newX=  293.9689 | newY=   42.5133
-particle=  7 | newX=  249.6927 | newY=  179.8811
-particle=  8 | newX=  233.3731 | newY=  143.6119
-particle=  9 | newX=  282.7742 | newY=  155.8779
+particle=  0 | newX=  317.1829 | newY=  148.0069 | HALT AT STEP=56
+particle=  1 | newX=  319.4109 | newY=  148.7285 | HALT AT STEP=56
+particle=  2 | newX=  321.7388 | newY=  149.6182 | HALT AT STEP=56
+particle=  3 | newX=  324.1753 | newY=  150.6593 | HALT AT STEP=56
+particle=  4 | newX=  326.7267 | newY=  151.8342 | HALT AT STEP=56
+particle=  5 | newX=  329.3969 | newY=  153.1259 | HALT AT STEP=56
+particle=  6 | newX=  332.1878 | newY=  154.5176 | HALT AT STEP=56
+particle=  7 | newX=  335.0997 | newY=  155.9937 | HALT AT STEP=56
+particle=  8 | newX=  333.1097 | newY=  141.7053 | HALT AT STEP=57
+particle=  9 | newX=  336.3161 | newY=  143.8508 | HALT AT STEP=57
 STEP  70
-particle=  0 | newX=  212.4604 | newY=  104.0877
-particle=  1 | newX=  234.0719 | newY=   27.7816
-particle=  2 | newX=  297.7922 | newY=  160.9473
-particle=  3 | newX=  282.2920 | newY=  153.0724
-particle=  4 | newX=  282.7597 | newY=  152.7106
-particle=  5 | newX=  303.8257 | newY=  114.6609
-particle=  6 | newX=  296.4359 | newY=   49.5050
-particle=  7 | newX=  255.0883 | newY=  166.4269
-particle=  8 | newX=  242.5091 | newY=  131.8205
-particle=  9 | newX=  287.7496 | newY=  136.7479
+particle=  0 | newX=  317.1829 | newY=  148.0069 | HALT AT STEP=56
+particle=  1 | newX=  319.4109 | newY=  148.7285 | HALT AT STEP=56
+particle=  2 | newX=  321.7388 | newY=  149.6182 | HALT AT STEP=56
+particle=  3 | newX=  324.1753 | newY=  150.6593 | HALT AT STEP=56
+particle=  4 | newX=  326.7267 | newY=  151.8342 | HALT AT STEP=56
+particle=  5 | newX=  329.3969 | newY=  153.1259 | HALT AT STEP=56
+particle=  6 | newX=  332.1878 | newY=  154.5176 | HALT AT STEP=56
+particle=  7 | newX=  335.0997 | newY=  155.9937 | HALT AT STEP=56
+particle=  8 | newX=  333.1097 | newY=  141.7053 | HALT AT STEP=57
+particle=  9 | newX=  336.3161 | newY=  143.8508 | HALT AT STEP=57
 STEP  71
-particle=  0 | newX=  222.2559 | newY=   97.2531
-particle=  1 | newX=  240.3898 | newY=   27.3006
-particle=  2 | newX=  299.3526 | newY=  141.7756
-particle=  3 | newX=  287.7454 | newY=  133.4735
-particle=  4 | newX=  288.1739 | newY=  132.9703
-particle=  5 | newX=  292.0443 | newY=   58.8418
-particle=  6 | newX=  298.5892 | newY=   58.4212
-particle=  7 | newX=  261.5292 | newY=  151.9327
-particle=  8 | newX=  253.8287 | newY=  119.6646
-particle=  9 | newX=  295.1503 | newY=  111.3446
+particle=  0 | newX=  317.1829 | newY=  148.0069 | HALT AT STEP=56
+particle=  1 | newX=  319.4109 | newY=  148.7285 | HALT AT STEP=56
+particle=  2 | newX=  321.7388 | newY=  149.6182 | HALT AT STEP=56
+particle=  3 | newX=  324.1753 | newY=  150.6593 | HALT AT STEP=56
+particle=  4 | newX=  326.7267 | newY=  151.8342 | HALT AT STEP=56
+particle=  5 | newX=  329.3969 | newY=  153.1259 | HALT AT STEP=56
+particle=  6 | newX=  332.1878 | newY=  154.5176 | HALT AT STEP=56
+particle=  7 | newX=  335.0997 | newY=  155.9937 | HALT AT STEP=56
+particle=  8 | newX=  333.1097 | newY=  141.7053 | HALT AT STEP=57
+particle=  9 | newX=  336.3161 | newY=  143.8508 | HALT AT STEP=57
 STEP  72
-particle=  0 | newX=  233.1827 | newY=   91.1913
-particle=  1 | newX=  246.5988 | newY=   27.3431
-particle=  2 | newX=  300.7433 | newY=  116.7976
-particle=  3 | newX=  296.2906 | newY=  106.6420
-particle=  4 | newX=  296.7156 | newY=  105.7303
-particle=  5 | newX=  296.6209 | newY=   70.6165
-particle=  6 | newX=  300.3040 | newY=   70.6645
-particle=  7 | newX=  269.7006 | newY=  135.8331
-particle=  8 | newX=  269.0440 | newY=  107.1871
-particle=  9 | newX=  320.8879 | newY=   47.2780
+particle=  0 | newX=  317.1829 | newY=  148.0069 | HALT AT STEP=56
+particle=  1 | newX=  319.4109 | newY=  148.7285 | HALT AT STEP=56
+particle=  2 | newX=  321.7388 | newY=  149.6182 | HALT AT STEP=56
+particle=  3 | newX=  324.1753 | newY=  150.6593 | HALT AT STEP=56
+particle=  4 | newX=  326.7267 | newY=  151.8342 | HALT AT STEP=56
+particle=  5 | newX=  329.3969 | newY=  153.1259 | HALT AT STEP=56
+particle=  6 | newX=  332.1878 | newY=  154.5176 | HALT AT STEP=56
+particle=  7 | newX=  335.0997 | newY=  155.9937 | HALT AT STEP=56
+particle=  8 | newX=  333.1097 | newY=  141.7053 | HALT AT STEP=57
+particle=  9 | newX=  336.3161 | newY=  143.8508 | HALT AT STEP=57
 STEP  73
-particle=  0 | newX=  245.5640 | newY=   86.2883
-particle=  1 | newX=  252.6792 | newY=   27.9380
-particle=  2 | newX=  299.8134 | newY=   64.4121
-particle=  3 | newX=  346.9599 | newY=   11.4610
-particle=  4 | newX=  356.0464 | newY=   -2.2849
-particle=  5 | newX=  300.6945 | newY=   90.2395
-particle=  6 | newX=  301.1222 | newY=   90.6725
-particle=  7 | newX=  281.4022 | newY=  116.7870
-particle=  8 | newX=  293.8075 | newY=   95.2644
-particle=  9 | newX=  316.9774 | newY=   53.6471
+particle=  0 | newX=  317.1829 | newY=  148.0069 | HALT AT STEP=56
+particle=  1 | newX=  319.4109 | newY=  148.7285 | HALT AT STEP=56
+particle=  2 | newX=  321.7388 | newY=  149.6182 | HALT AT STEP=56
+particle=  3 | newX=  324.1753 | newY=  150.6593 | HALT AT STEP=56
+particle=  4 | newX=  326.7267 | newY=  151.8342 | HALT AT STEP=56
+particle=  5 | newX=  329.3969 | newY=  153.1259 | HALT AT STEP=56
+particle=  6 | newX=  332.1878 | newY=  154.5176 | HALT AT STEP=56
+particle=  7 | newX=  335.0997 | newY=  155.9937 | HALT AT STEP=56
+particle=  8 | newX=  333.1097 | newY=  141.7053 | HALT AT STEP=57
+particle=  9 | newX=  336.3161 | newY=  143.8508 | HALT AT STEP=57
 STEP  74
-particle=  0 | newX=  259.9435 | newY=   83.2598
-particle=  1 | newX=  258.6121 | newY=   29.1223
-particle=  2 | newX=  301.0158 | newY=   79.7992
-particle=  3 | newX=  344.4771 | newY=   12.0396
-particle=  4 | newX=  353.9971 | newY=   -2.6800
-particle=  5 | newX=  296.1821 | newY=  162.7018
-particle=  6 | newX=  292.3863 | newY=  166.0284
-particle=  7 | newX=  305.3944 | newY=   89.6700
-particle=  8 | newX=  373.7111 | newY=  149.1413
-particle=  9 | newX=  312.6988 | newY=   62.0370
+particle=  0 | newX=  317.1829 | newY=  148.0069 | HALT AT STEP=56
+particle=  1 | newX=  319.4109 | newY=  148.7285 | HALT AT STEP=56
+particle=  2 | newX=  321.7388 | newY=  149.6182 | HALT AT STEP=56
+particle=  3 | newX=  324.1753 | newY=  150.6593 | HALT AT STEP=56
+particle=  4 | newX=  326.7267 | newY=  151.8342 | HALT AT STEP=56
+particle=  5 | newX=  329.3969 | newY=  153.1259 | HALT AT STEP=56
+particle=  6 | newX=  332.1878 | newY=  154.5176 | HALT AT STEP=56
+particle=  7 | newX=  335.0997 | newY=  155.9937 | HALT AT STEP=56
+particle=  8 | newX=  333.1097 | newY=  141.7053 | HALT AT STEP=57
+particle=  9 | newX=  336.3161 | newY=  143.8508 | HALT AT STEP=57
 STEP  75
-particle=  0 | newX=  277.4192 | newY=   83.7434
-particle=  1 | newX=  264.3806 | newY=   30.9462
-particle=  2 | newX=  300.1908 | newY=  111.6229
-particle=  3 | newX=  342.0659 | newY=   12.8005
-particle=  4 | newX=  352.0279 | newY=   -2.9908
-particle=  5 | newX=  298.0291 | newY=  143.9115
-particle=  6 | newX=  294.8119 | newY=  147.9629
-particle=  7 | newX=  275.7760 | newY=  142.1204
-particle=  8 | newX=  367.6814 | newY=  137.8198
-particle=  9 | newX=  307.6764 | newY=   74.0233
+particle=  0 | newX=  317.1829 | newY=  148.0069 | HALT AT STEP=56
+particle=  1 | newX=  319.4109 | newY=  148.7285 | HALT AT STEP=56
+particle=  2 | newX=  321.7388 | newY=  149.6182 | HALT AT STEP=56
+particle=  3 | newX=  324.1753 | newY=  150.6593 | HALT AT STEP=56
+particle=  4 | newX=  326.7267 | newY=  151.8342 | HALT AT STEP=56
+particle=  5 | newX=  329.3969 | newY=  153.1259 | HALT AT STEP=56
+particle=  6 | newX=  332.1878 | newY=  154.5176 | HALT AT STEP=56
+particle=  7 | newX=  335.0997 | newY=  155.9937 | HALT AT STEP=56
+particle=  8 | newX=  333.1097 | newY=  141.7053 | HALT AT STEP=57
+particle=  9 | newX=  336.3161 | newY=  143.8508 | HALT AT STEP=57
 STEP  76
-particle=  0 | newX=  301.0418 | newY=   93.6031
-particle=  1 | newX=  269.9688 | newY=   33.4793
-particle=  2 | newX=  300.2007 | newY=   38.6720
-particle=  3 | newX=  339.7212 | newY=   13.7512
-particle=  4 | newX=  350.1359 | newY=   -3.2205
-particle=  5 | newX=  299.9199 | newY=  119.8617
-particle=  6 | newX=  297.6330 | newY=  125.5456
-particle=  7 | newX=  284.7802 | newY=  121.8524
-particle=  8 | newX=  360.1952 | newY=  126.4968
-particle=  9 | newX=  300.6878 | newY=   95.0493
+particle=  0 | newX=  317.1829 | newY=  148.0069 | HALT AT STEP=56
+particle=  1 | newX=  319.4109 | newY=  148.7285 | HALT AT STEP=56
+particle=  2 | newX=  321.7388 | newY=  149.6182 | HALT AT STEP=56
+particle=  3 | newX=  324.1753 | newY=  150.6593 | HALT AT STEP=56
+particle=  4 | newX=  326.7267 | newY=  151.8342 | HALT AT STEP=56
+particle=  5 | newX=  329.3969 | newY=  153.1259 | HALT AT STEP=56
+particle=  6 | newX=  332.1878 | newY=  154.5176 | HALT AT STEP=56
+particle=  7 | newX=  335.0997 | newY=  155.9937 | HALT AT STEP=56
+particle=  8 | newX=  333.1097 | newY=  141.7053 | HALT AT STEP=57
+particle=  9 | newX=  336.3161 | newY=  143.8508 | HALT AT STEP=57
 STEP  77
-particle=  0 | newX=  282.9569 | newY=  205.0051
-particle=  1 | newX=  275.3627 | newY=   36.8234
-particle=  2 | newX=  301.2374 | newY=   44.9758
-particle=  3 | newX=  337.4374 | newY=   14.9019
-particle=  4 | newX=  348.3185 | newY=   -3.3715
-particle=  5 | newX=  301.1797 | newY=   74.4859
-particle=  6 | newX=  301.5146 | newY=   89.0828
-particle=  7 | newX=  302.4603 | newY=   91.5804
-particle=  8 | newX=  350.6384 | newY=  115.3230
-particle=  9 | newX=  280.4912 | newY=  241.9363
+particle=  0 | newX=  317.1829 | newY=  148.0069 | HALT AT STEP=56
+particle=  1 | newX=  319.4109 | newY=  148.7285 | HALT AT STEP=56
+particle=  2 | newX=  321.7388 | newY=  149.6182 | HALT AT STEP=56
+particle=  3 | newX=  324.1753 | newY=  150.6593 | HALT AT STEP=56
+particle=  4 | newX=  326.7267 | newY=  151.8342 | HALT AT STEP=56
+particle=  5 | newX=  329.3969 | newY=  153.1259 | HALT AT STEP=56
+particle=  6 | newX=  332.1878 | newY=  154.5176 | HALT AT STEP=56
+particle=  7 | newX=  335.0997 | newY=  155.9937 | HALT AT STEP=56
+particle=  8 | newX=  333.1097 | newY=  141.7053 | HALT AT STEP=57
+particle=  9 | newX=  336.3161 | newY=  143.8508 | HALT AT STEP=57
 STEP  78
-particle=  0 | newX=  285.1942 | newY=  191.2657
-particle=  1 | newX=  280.5491 | newY=   41.1333
-particle=  2 | newX=  302.0039 | newY=   52.7087
-particle=  3 | newX=  335.2079 | newY=   16.2660
-particle=  4 | newX=  346.5727 | newY=   -3.4459
-particle=  5 | newX=  300.8750 | newY=   98.3757
-particle=  6 | newX=  292.9697 | newY=  152.2112
-particle=  7 | newX=  278.8285 | newY=  169.8339
-particle=  8 | newX=  337.8326 | newY=  104.6720
-particle=  9 | newX=  282.2841 | newY=  229.9726
+particle=  0 | newX=  317.1829 | newY=  148.0069 | HALT AT STEP=56
+particle=  1 | newX=  319.4109 | newY=  148.7285 | HALT AT STEP=56
+particle=  2 | newX=  321.7388 | newY=  149.6182 | HALT AT STEP=56
+particle=  3 | newX=  324.1753 | newY=  150.6593 | HALT AT STEP=56
+particle=  4 | newX=  326.7267 | newY=  151.8342 | HALT AT STEP=56
+particle=  5 | newX=  329.3969 | newY=  153.1259 | HALT AT STEP=56
+particle=  6 | newX=  332.1878 | newY=  154.5176 | HALT AT STEP=56
+particle=  7 | newX=  335.0997 | newY=  155.9937 | HALT AT STEP=56
+particle=  8 | newX=  333.1097 | newY=  141.7053 | HALT AT STEP=57
+particle=  9 | newX=  336.3161 | newY=  143.8508 | HALT AT STEP=57
 STEP  79
-particle=  0 | newX=  287.6124 | newY=  176.4656
-particle=  1 | newX=  285.5144 | newY=   46.6587
-particle=  2 | newX=  302.3992 | newY=   62.7068
-particle=  3 | newX=  333.0256 | newY=   17.8606
-particle=  4 | newX=  344.8955 | newY=   -3.4453
-particle=  5 | newX=  103.1458 | newY=  461.0639
-particle=  6 | newX=  296.0230 | newY=  131.1769
-particle=  7 | newX=  282.9755 | newY=  153.1806
-particle=  8 | newX=  318.8573 | newY=   95.7847
-particle=  9 | newX=  284.1450 | newY=  217.5313
+particle=  0 | newX=  317.1829 | newY=  148.0069 | HALT AT STEP=56
+particle=  1 | newX=  319.4109 | newY=  148.7285 | HALT AT STEP=56
+particle=  2 | newX=  321.7388 | newY=  149.6182 | HALT AT STEP=56
+particle=  3 | newX=  324.1753 | newY=  150.6593 | HALT AT STEP=56
+particle=  4 | newX=  326.7267 | newY=  151.8342 | HALT AT STEP=56
+particle=  5 | newX=  329.3969 | newY=  153.1259 | HALT AT STEP=56
+particle=  6 | newX=  332.1878 | newY=  154.5176 | HALT AT STEP=56
+particle=  7 | newX=  335.0997 | newY=  155.9937 | HALT AT STEP=56
+particle=  8 | newX=  333.1097 | newY=  141.7053 | HALT AT STEP=57
+particle=  9 | newX=  336.3161 | newY=  143.8508 | HALT AT STEP=57
 STEP  80
-particle=  0 | newX=  290.2935 | newY=  160.0884
-particle=  1 | newX=  290.2423 | newY=   53.8370
-particle=  2 | newX=  302.1620 | newY=   77.0188
-particle=  3 | newX=  330.8821 | newY=   19.7081
-particle=  4 | newX=  343.2840 | newY=   -3.3710
-particle=  5 | newX=  104.8160 | newY=  452.6655
-particle=  6 | newX=  300.2351 | newY=  100.3138
-particle=  7 | newX=  288.2776 | newY=  133.5032
-particle=  8 | newX=  280.9196 | newY=   98.1272
-particle=  9 | newX=  286.0879 | newY=  204.4868
+particle=  0 | newX=  317.1829 | newY=  148.0069 | HALT AT STEP=56
+particle=  1 | newX=  319.4109 | newY=  148.7285 | HALT AT STEP=56
+particle=  2 | newX=  321.7388 | newY=  149.6182 | HALT AT STEP=56
+particle=  3 | newX=  324.1753 | newY=  150.6593 | HALT AT STEP=56
+particle=  4 | newX=  326.7267 | newY=  151.8342 | HALT AT STEP=56
+particle=  5 | newX=  329.3969 | newY=  153.1259 | HALT AT STEP=56
+particle=  6 | newX=  332.1878 | newY=  154.5176 | HALT AT STEP=56
+particle=  7 | newX=  335.0997 | newY=  155.9937 | HALT AT STEP=56
+particle=  8 | newX=  333.1097 | newY=  141.7053 | HALT AT STEP=57
+particle=  9 | newX=  336.3161 | newY=  143.8508 | HALT AT STEP=57
 STEP  81
-particle=  0 | newX=  293.4097 | newY=  141.0477
-particle=  1 | newX=  294.7027 | newY=   63.5411
-particle=  2 | newX=  300.1198 | newY=  104.0159
-particle=  3 | newX=  328.7681 | newY=   21.8370
-particle=  4 | newX=  341.7351 | newY=   -3.2237
-particle=  5 | newX=  106.5206 | newY=  444.2444
-particle=  6 | newX= -881.5479 | newY=-1484.9932
-particle=  7 | newX=  296.5607 | newY=  106.4793
-particle=  8 | newX=  322.1415 | newY=   95.6654
-particle=  9 | newX=  288.1336 | newY=  190.6507
+particle=  0 | newX=  317.1829 | newY=  148.0069 | HALT AT STEP=56
+particle=  1 | newX=  319.4109 | newY=  148.7285 | HALT AT STEP=56
+particle=  2 | newX=  321.7388 | newY=  149.6182 | HALT AT STEP=56
+particle=  3 | newX=  324.1753 | newY=  150.6593 | HALT AT STEP=56
+particle=  4 | newX=  326.7267 | newY=  151.8342 | HALT AT STEP=56
+particle=  5 | newX=  329.3969 | newY=  153.1259 | HALT AT STEP=56
+particle=  6 | newX=  332.1878 | newY=  154.5176 | HALT AT STEP=56
+particle=  7 | newX=  335.0997 | newY=  155.9937 | HALT AT STEP=56
+particle=  8 | newX=  333.1097 | newY=  141.7053 | HALT AT STEP=57
+particle=  9 | newX=  336.3161 | newY=  143.8508 | HALT AT STEP=57
 STEP  82
-particle=  0 | newX=  297.4536 | newY=  116.2114
-particle=  1 | newX=  298.8019 | newY=   77.9704
-particle=  2 | newX=  295.4809 | newY=  -94.8298
-particle=  3 | newX=  326.6723 | newY=   24.2846
-particle=  4 | newX=  340.2458 | newY=   -3.0037
-particle=  5 | newX=  108.2613 | newY=  435.7996
-particle=  6 | newX= -881.0799 | newY=-1490.9560
-particle=  7 | newX=  347.0943 | newY=    6.9307
-particle=  8 | newX=  289.6306 | newY=   95.8628
-particle=  9 | newX=  290.3148 | newY=  175.7199
+particle=  0 | newX=  317.1829 | newY=  148.0069 | HALT AT STEP=56
+particle=  1 | newX=  319.4109 | newY=  148.7285 | HALT AT STEP=56
+particle=  2 | newX=  321.7388 | newY=  149.6182 | HALT AT STEP=56
+particle=  3 | newX=  324.1753 | newY=  150.6593 | HALT AT STEP=56
+particle=  4 | newX=  326.7267 | newY=  151.8342 | HALT AT STEP=56
+particle=  5 | newX=  329.3969 | newY=  153.1259 | HALT AT STEP=56
+particle=  6 | newX=  332.1878 | newY=  154.5176 | HALT AT STEP=56
+particle=  7 | newX=  335.0997 | newY=  155.9937 | HALT AT STEP=56
+particle=  8 | newX=  333.1097 | newY=  141.7053 | HALT AT STEP=57
+particle=  9 | newX=  336.3161 | newY=  143.8508 | HALT AT STEP=57
 STEP  83
-particle=  0 | newX=  305.8662 | newY=   63.2200
-particle=  1 | newX=  301.7974 | newY=  106.6104
-particle=  2 | newX=  296.5525 | newY=  -97.0014
-particle=  3 | newX=  324.5809 | newY=   27.0999
-particle=  4 | newX=  338.8129 | newY=   -2.7109
-particle=  5 | newX=  110.0398 | newY=  427.3304
-particle=  6 | newX= -880.6137 | newY=-1496.9189
-particle=  7 | newX=  344.8765 | newY=    7.3152
-particle=  8 | newX=  355.0633 | newY=  115.1396
-particle=  9 | newX=  292.6888 | newY=  159.1497
+particle=  0 | newX=  317.1829 | newY=  148.0069 | HALT AT STEP=56
+particle=  1 | newX=  319.4109 | newY=  148.7285 | HALT AT STEP=56
+particle=  2 | newX=  321.7388 | newY=  149.6182 | HALT AT STEP=56
+particle=  3 | newX=  324.1753 | newY=  150.6593 | HALT AT STEP=56
+particle=  4 | newX=  326.7267 | newY=  151.8342 | HALT AT STEP=56
+particle=  5 | newX=  329.3969 | newY=  153.1259 | HALT AT STEP=56
+particle=  6 | newX=  332.1878 | newY=  154.5176 | HALT AT STEP=56
+particle=  7 | newX=  335.0997 | newY=  155.9937 | HALT AT STEP=56
+particle=  8 | newX=  333.1097 | newY=  141.7053 | HALT AT STEP=57
+particle=  9 | newX=  336.3161 | newY=  143.8508 | HALT AT STEP=57
 STEP  84
-particle=  0 | newX=  303.6924 | newY=   77.3858
-particle=  1 | newX=  273.2752 | newY=   -8.7572
-particle=  2 | newX=  297.6001 | newY=  -99.2126
-particle=  3 | newX=  322.4770 | newY=   30.3487
-particle=  4 | newX=  337.4333 | newY=   -2.3446
-particle=  5 | newX=  111.8578 | newY=  418.8359
-particle=  6 | newX= -880.1494 | newY=-1502.8818
-particle=  7 | newX=  342.7304 | newY=    7.8412
-particle=  8 | newX=  343.1991 | newY=  105.1334
-particle=  9 | newX=  295.3742 | newY=  139.7755
+particle=  0 | newX=  317.1829 | newY=  148.0069 | HALT AT STEP=56
+particle=  1 | newX=  319.4109 | newY=  148.7285 | HALT AT STEP=56
+particle=  2 | newX=  321.7388 | newY=  149.6182 | HALT AT STEP=56
+particle=  3 | newX=  324.1753 | newY=  150.6593 | HALT AT STEP=56
+particle=  4 | newX=  326.7267 | newY=  151.8342 | HALT AT STEP=56
+particle=  5 | newX=  329.3969 | newY=  153.1259 | HALT AT STEP=56
+particle=  6 | newX=  332.1878 | newY=  154.5176 | HALT AT STEP=56
+particle=  7 | newX=  335.0997 | newY=  155.9937 | HALT AT STEP=56
+particle=  8 | newX=  333.1097 | newY=  141.7053 | HALT AT STEP=57
+particle=  9 | newX=  336.3161 | newY=  143.8508 | HALT AT STEP=57
 STEP  85
-particle=  0 | newX=  299.3516 | newY=  104.3361
-particle=  1 | newX=  275.9392 | newY=   -8.3082
-particle=  2 | newX=  298.6249 | newY= -101.4634
-particle=  3 | newX=  320.3384 | newY=   34.1220
-particle=  4 | newX=  336.1040 | newY=   -1.9037
-particle=  5 | newX=  113.7175 | newY=  410.3150
-particle=  6 | newX= -879.6869 | newY=-1508.8449
-particle=  7 | newX=  340.6517 | newY=    8.5123
-particle=  8 | newX=  326.7154 | newY=   96.6354
-particle=  9 | newX=  298.7031 | newY=  114.1245
+particle=  0 | newX=  317.1829 | newY=  148.0069 | HALT AT STEP=56
+particle=  1 | newX=  319.4109 | newY=  148.7285 | HALT AT STEP=56
+particle=  2 | newX=  321.7388 | newY=  149.6182 | HALT AT STEP=56
+particle=  3 | newX=  324.1753 | newY=  150.6593 | HALT AT STEP=56
+particle=  4 | newX=  326.7267 | newY=  151.8342 | HALT AT STEP=56
+particle=  5 | newX=  329.3969 | newY=  153.1259 | HALT AT STEP=56
+particle=  6 | newX=  332.1878 | newY=  154.5176 | HALT AT STEP=56
+particle=  7 | newX=  335.0997 | newY=  155.9937 | HALT AT STEP=56
+particle=  8 | newX=  333.1097 | newY=  141.7053 | HALT AT STEP=57
+particle=  9 | newX=  336.3161 | newY=  143.8508 | HALT AT STEP=57
 STEP  86
-particle=  0 | newX=  326.5422 | newY=  -76.5550
-particle=  1 | newX=  278.4706 | newY=   -7.7596
-particle=  2 | newX=  299.6283 | newY= -103.7538
-particle=  3 | newX=  318.1348 | newY=   38.5502
-particle=  4 | newX=  334.8218 | newY=   -1.3865
-particle=  5 | newX=  115.6208 | newY=  401.7667
-particle=  6 | newX= -879.2263 | newY=-1514.8081
-particle=  7 | newX=  338.6359 | newY=    9.3335
-particle=  8 | newX=  299.3560 | newY=   93.8354
-particle=  9 | newX=  304.7893 | newY=   53.3960
+particle=  0 | newX=  317.1829 | newY=  148.0069 | HALT AT STEP=56
+particle=  1 | newX=  319.4109 | newY=  148.7285 | HALT AT STEP=56
+particle=  2 | newX=  321.7388 | newY=  149.6182 | HALT AT STEP=56
+particle=  3 | newX=  324.1753 | newY=  150.6593 | HALT AT STEP=56
+particle=  4 | newX=  326.7267 | newY=  151.8342 | HALT AT STEP=56
+particle=  5 | newX=  329.3969 | newY=  153.1259 | HALT AT STEP=56
+particle=  6 | newX=  332.1878 | newY=  154.5176 | HALT AT STEP=56
+particle=  7 | newX=  335.0997 | newY=  155.9937 | HALT AT STEP=56
+particle=  8 | newX=  333.1097 | newY=  141.7053 | HALT AT STEP=57
+particle=  9 | newX=  336.3161 | newY=  143.8508 | HALT AT STEP=57
 STEP  87
-particle=  0 | newX=  326.9300 | newY=  -78.4037
-particle=  1 | newX=  280.8728 | newY=   -7.1134
-particle=  2 | newX=  300.6115 | newY= -106.0839
-particle=  3 | newX=  315.8226 | newY=   43.8297
-particle=  4 | newX=  333.5835 | newY=   -0.7907
-particle=  5 | newX=  117.5703 | newY=  393.1899
-particle=  6 | newX= -878.7676 | newY=-1520.7714
-particle=  7 | newX=  336.6781 | newY=   10.3116
-particle=  8 | newX=  313.4189 | newY=  211.5617
-particle=  9 | newX=  304.1930 | newY=   63.4914
+particle=  0 | newX=  317.1829 | newY=  148.0069 | HALT AT STEP=56
+particle=  1 | newX=  319.4109 | newY=  148.7285 | HALT AT STEP=56
+particle=  2 | newX=  321.7388 | newY=  149.6182 | HALT AT STEP=56
+particle=  3 | newX=  324.1753 | newY=  150.6593 | HALT AT STEP=56
+particle=  4 | newX=  326.7267 | newY=  151.8342 | HALT AT STEP=56
+particle=  5 | newX=  329.3969 | newY=  153.1259 | HALT AT STEP=56
+particle=  6 | newX=  332.1878 | newY=  154.5176 | HALT AT STEP=56
+particle=  7 | newX=  335.0997 | newY=  155.9937 | HALT AT STEP=56
+particle=  8 | newX=  333.1097 | newY=  141.7053 | HALT AT STEP=57
+particle=  9 | newX=  336.3161 | newY=  143.8508 | HALT AT STEP=57
 STEP  88
-particle=  0 | newX=  327.3206 | newY=  -80.2950
-particle=  1 | newX=  283.1490 | newY=   -6.3710
-particle=  2 | newX=  301.5756 | newY= -108.4536
-particle=  3 | newX=  313.3327 | newY=   50.2791
-particle=  4 | newX=  332.3861 | newY=   -0.1135
-particle=  5 | newX=  119.5683 | newY=  384.5835
-particle=  6 | newX= -878.3107 | newY=-1526.7348
-particle=  7 | newX=  334.7731 | newY=   11.4553
-particle=  8 | newX=  313.7144 | newY=  198.1470
-particle=  9 | newX=  302.8861 | newY=   78.0583
+particle=  0 | newX=  317.1829 | newY=  148.0069 | HALT AT STEP=56
+particle=  1 | newX=  319.4109 | newY=  148.7285 | HALT AT STEP=56
+particle=  2 | newX=  321.7388 | newY=  149.6182 | HALT AT STEP=56
+particle=  3 | newX=  324.1753 | newY=  150.6593 | HALT AT STEP=56
+particle=  4 | newX=  326.7267 | newY=  151.8342 | HALT AT STEP=56
+particle=  5 | newX=  329.3969 | newY=  153.1259 | HALT AT STEP=56
+particle=  6 | newX=  332.1878 | newY=  154.5176 | HALT AT STEP=56
+particle=  7 | newX=  335.0997 | newY=  155.9937 | HALT AT STEP=56
+particle=  8 | newX=  333.1097 | newY=  141.7053 | HALT AT STEP=57
+particle=  9 | newX=  336.3161 | newY=  143.8508 | HALT AT STEP=57
 STEP  89
-particle=  0 | newX=  327.7143 | newY=  -82.2288
-particle=  1 | newX=  285.3028 | newY=   -5.5327
-particle=  2 | newX=  302.5216 | newY= -110.8627
-particle=  3 | newX=  310.5442 | newY=   58.4725
-particle=  4 | newX=  331.2264 | newY=    0.6487
-particle=  5 | newX=  121.6178 | newY=  375.9463
-particle=  6 | newX= -877.8556 | newY=-1532.6983
-particle=  7 | newX=  332.9153 | newY=   12.7758
-particle=  8 | newX=  313.7558 | newY=  183.8583
-particle=  9 | newX=  299.4259 | newY=  106.3442
+particle=  0 | newX=  317.1829 | newY=  148.0069 | HALT AT STEP=56
+particle=  1 | newX=  319.4109 | newY=  148.7285 | HALT AT STEP=56
+particle=  2 | newX=  321.7388 | newY=  149.6182 | HALT AT STEP=56
+particle=  3 | newX=  324.1753 | newY=  150.6593 | HALT AT STEP=56
+particle=  4 | newX=  326.7267 | newY=  151.8342 | HALT AT STEP=56
+particle=  5 | newX=  329.3969 | newY=  153.1259 | HALT AT STEP=56
+particle=  6 | newX=  332.1878 | newY=  154.5176 | HALT AT STEP=56
+particle=  7 | newX=  335.0997 | newY=  155.9937 | HALT AT STEP=56
+particle=  8 | newX=  333.1097 | newY=  141.7053 | HALT AT STEP=57
+particle=  9 | newX=  336.3161 | newY=  143.8508 | HALT AT STEP=57
 STEP  90
-particle=  0 | newX=  328.1113 | newY=  -84.2050
-particle=  1 | newX=  287.3374 | newY=   -4.5979
-particle=  2 | newX=  303.4507 | newY= -113.3111
-particle=  3 | newX=  307.2038 | newY=   69.6368
-particle=  4 | newX=  330.1010 | newY=    1.5002
-particle=  5 | newX=  123.7217 | newY=  367.2769
-particle=  6 | newX= -877.4023 | newY=-1538.6620
-particle=  7 | newX=  331.0984 | newY=   14.2871
-particle=  8 | newX=  313.4068 | newY=  168.3407
-particle=  9 | newX=  311.4687 | newY=  -20.9987
+particle=  0 | newX=  317.1829 | newY=  148.0069 | HALT AT STEP=56
+particle=  1 | newX=  319.4109 | newY=  148.7285 | HALT AT STEP=56
+particle=  2 | newX=  321.7388 | newY=  149.6182 | HALT AT STEP=56
+particle=  3 | newX=  324.1753 | newY=  150.6593 | HALT AT STEP=56
+particle=  4 | newX=  326.7267 | newY=  151.8342 | HALT AT STEP=56
+particle=  5 | newX=  329.3969 | newY=  153.1259 | HALT AT STEP=56
+particle=  6 | newX=  332.1878 | newY=  154.5176 | HALT AT STEP=56
+particle=  7 | newX=  335.0997 | newY=  155.9937 | HALT AT STEP=56
+particle=  8 | newX=  333.1097 | newY=  141.7053 | HALT AT STEP=57
+particle=  9 | newX=  336.3161 | newY=  143.8508 | HALT AT STEP=57
 STEP  91
-particle=  0 | newX=  328.5115 | newY=  -86.2237
-particle=  1 | newX=  289.2563 | newY=   -3.5649
-particle=  2 | newX=  304.3636 | newY= -115.7987
-particle=  3 | newX=  302.5835 | newY=   87.4017
-particle=  4 | newX=  329.0068 | newY=    2.4462
-particle=  5 | newX=  125.8834 | newY=  358.5740
-particle=  6 | newX= -876.9509 | newY=-1544.6259
-particle=  7 | newX=  329.3158 | newY=   16.0069
-particle=  8 | newX=  312.3945 | newY=  150.9319
-particle=  9 | newX=  311.9263 | newY=  -20.8803
+particle=  0 | newX=  317.1829 | newY=  148.0069 | HALT AT STEP=56
+particle=  1 | newX=  319.4109 | newY=  148.7285 | HALT AT STEP=56
+particle=  2 | newX=  321.7388 | newY=  149.6182 | HALT AT STEP=56
+particle=  3 | newX=  324.1753 | newY=  150.6593 | HALT AT STEP=56
+particle=  4 | newX=  326.7267 | newY=  151.8342 | HALT AT STEP=56
+particle=  5 | newX=  329.3969 | newY=  153.1259 | HALT AT STEP=56
+particle=  6 | newX=  332.1878 | newY=  154.5176 | HALT AT STEP=56
+particle=  7 | newX=  335.0997 | newY=  155.9937 | HALT AT STEP=56
+particle=  8 | newX=  333.1097 | newY=  141.7053 | HALT AT STEP=57
+particle=  9 | newX=  336.3161 | newY=  143.8508 | HALT AT STEP=57
 Tracking contamination for  10 particles and  92 time steps. Reverse tracking: Enabled
 Well 1 | Center = ( 1000.0000,   150.0000), Radius=   50.0000
 Well 2 | Center = (  300.0000,   100.0000), Radius=   50.0000
@@ -7007,8 +7007,8 @@ particle=  7 | newX= 1075.0690 | newY=  217.6018
 particle=  8 | newX= 1079.9270 | newY=  220.4746
 particle=  9 | newX= 1084.8136 | newY=  223.2591
 STEP  68
-Particle   0 is halted at position ( 1041.9882,   194.3166)
-Particle   1 is halted at position ( 1046.6054,   198.0627)
+Particle   0 is halted at position ( 1041.9882,   194.3166) due to being close to well 1
+Particle   1 is halted at position ( 1046.6054,   198.0627) due to being close to well 1
 particle=  2 | newX= 1039.9281 | newY=  182.7632
 particle=  3 | newX= 1045.2538 | newY=  187.0393
 particle=  4 | newX= 1050.5269 | newY=  191.0617
@@ -7020,9 +7020,9 @@ particle=  9 | newX= 1076.5671 | newY=  208.4023
 STEP  69
 particle=  0 | newX= 1041.9882 | newY=  194.3166 | HALT AT STEP=68
 particle=  1 | newX= 1046.6054 | newY=  198.0627 | HALT AT STEP=68
-Particle   2 is halted at position ( 1039.9281,   182.7632)
-Particle   3 is halted at position ( 1045.2538,   187.0393)
-Particle   4 is halted at position ( 1050.5269,   191.0617)
+Particle   2 is halted at position ( 1039.9281,   182.7632) due to being close to well 1
+Particle   3 is halted at position ( 1045.2538,   187.0393) due to being close to well 1
+Particle   4 is halted at position ( 1050.5269,   191.0617) due to being close to well 1
 particle=  5 | newX=  826.8832 | newY=  196.1067
 particle=  6 | newX= 1049.2853 | newY=  181.4320
 particle=  7 | newX= 1055.2149 | newY=  185.5488
@@ -7035,8 +7035,8 @@ particle=  2 | newX= 1039.9281 | newY=  182.7632 | HALT AT STEP=69
 particle=  3 | newX= 1045.2538 | newY=  187.0393 | HALT AT STEP=69
 particle=  4 | newX= 1050.5269 | newY=  191.0617 | HALT AT STEP=69
 particle=  5 | newX=  830.5517 | newY=  185.6396
-Particle   6 is halted at position ( 1049.2853,   181.4320)
-Particle   7 is halted at position ( 1055.2149,   185.5488)
+Particle   6 is halted at position ( 1049.2853,   181.4320) due to being close to well 1
+Particle   7 is halted at position ( 1055.2149,   185.5488) due to being close to well 1
 particle=  8 | newX= 1047.7656 | newY=  172.9220
 particle=  9 | newX= 1054.5170 | newY=  177.2444
 STEP  71
@@ -7048,8 +7048,8 @@ particle=  4 | newX= 1050.5269 | newY=  191.0617 | HALT AT STEP=69
 particle=  5 | newX=  834.4857 | newY=  175.4679
 particle=  6 | newX= 1049.2853 | newY=  181.4320 | HALT AT STEP=70
 particle=  7 | newX= 1055.2149 | newY=  185.5488 | HALT AT STEP=70
-Particle   8 is halted at position ( 1047.7656,   172.9220)
-Particle   9 is halted at position ( 1054.5170,   177.2444)
+Particle   8 is halted at position ( 1047.7656,   172.9220) due to being close to well 1
+Particle   9 is halted at position ( 1054.5170,   177.2444) due to being close to well 1
 STEP  72
 particle=  0 | newX= 1041.9882 | newY=  194.3166 | HALT AT STEP=68
 particle=  1 | newX= 1046.6054 | newY=  198.0627 | HALT AT STEP=68
