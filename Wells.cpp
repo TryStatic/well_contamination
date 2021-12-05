@@ -1,9 +1,10 @@
-#include <iostream>
+﻿#include <iostream>
 #include <vector>
 #include <cmath>
 
 #pragma warning(disable:4996)
 
+// Σταθερές
 #define PI 3.14159265358979323846
 #define Q 0.03
 #define K 0.0001
@@ -12,6 +13,7 @@
 #define VE 0.000005
 #define HALT_DISTANCE 50.0
 
+// Δομή για τα σημεία
 struct point_2d
 {
 	double x;
@@ -22,13 +24,9 @@ struct point_2d
 		this->x = x;
 		this->y = y;
 	}
-
-	void print() const
-	{
-		std::cout << this->x << " " << this->y << std::endl;
-	}
 };
 
+// Δομή για τα σωματίδια
 struct particle
 {
 	point_2d position{0,0};
@@ -53,15 +51,18 @@ struct particle
 	}
 };
 
-class well
+// Δομη ορισμού ενός πηγαδιού
+struct well
 {
-public:
+	point_2d center;
+	double radius;
+	
 	well(const point_2d& center, const double radius)	
-		: center_(center),
-		  radius_(radius)
+		: center(center), radius(radius)
 	{
 	}
 
+	// Μέθοδος υπολογισμού σημείων περιμετρικά του πηγαδιού
 	std::vector<point_2d> generate_particles(const int particles_count) const
 	{
 		std::vector<point_2d> points;
@@ -70,67 +71,77 @@ public:
 		{
 			const double angle_rad = 2 * i * PI / particles_count;
 
-			double x = this->radius_ * cos(angle_rad) + this->center_.x;
-			double y = this->radius_ * sin(angle_rad) + this->center_.y;
+			double x = this->radius * cos(angle_rad) + this->center.x;
+			double y = this->radius * sin(angle_rad) + this->center.y;
 
 			points.emplace_back(x, y);
 		}
 
 		return points;
 	}
-
-	point_2d center_;
-	double radius_;
 };
 
+// Συνάρτηση υπολογισμού απόστασης δύο σημείων
 double get_distance(const point_2d& point1, const point_2d& point2)
 {
 	return sqrt(pow(point1.x - point2.x, 2) + pow(point1.y - point2.y, 2));
 }
 
-void track_contamination(
-	FILE* f,
-	const well well1, 
-	const well well2,
-	const std::vector<point_2d>& particle_positions,
-	const int steps, 
-	const int deltaT, 
-	const bool inverse = false)
+// Συνάρτηση υπολογισμού σωματιδίων μόλυνσης
+void track_contamination( // Παράμετροι:
+	FILE* f, // Το αρχείο για το output
+	const well well1, // To πρώτο πηγάδι
+	const well well2, // To δεύτερο πηγάδι
+	const std::vector<point_2d>& particle_positions, // Λίστα με τα αρχικά σημεία
+	const int steps, // Αρ. βημάτων
+	const int deltaT, // το dt
+	const bool inverse = false // Εάν υπολογίζουμε ανάποδα ή οχι
+	)
 {
+	// Λίστα για τα σωματίδια
 	std::vector<particle> particles;
-	
+
+	// Δέσμευση χώρου (μνήμης) για τα σωματίδια
+	particles.reserve(particle_positions.size());
+
+	// Για κάθε σημείο
 	for (point_2d p : particle_positions)
 	{
+		// Αρχικοποιούμε ενα particle / σωματήδιο
 		particles.emplace_back(p);
 	}
-	
-	// Foreach time step
-	fprintf(f, "Tracking contamination for %3d particles and %3d time steps. Reverse tracking: %s\n", particles.size(), steps, inverse ? "Enabled" : "Disabled");
-	fprintf(f, "Well 1 | Center = (%10.4f, %10.4f), Radius=%10.4f\n", well1.center_.x, well1.center_.y, well1.radius_);
-	fprintf(f, "Well 2 | Center = (%10.4f, %10.4f), Radius=%10.4f\n", well2.center_.x, well2.center_.y, well2.radius_);
 
+	// Εκτύπωση πληροφοριών για τήν τρέχουσα προσομοίωση
+	fprintf(f, "Tracking contamination for %3d particles and %3d time steps. Reverse tracking: %s\n", particles.size(), steps, inverse ? "Enabled" : "Disabled");
+	fprintf(f, "Well 1 | Center = (%10.4f, %10.4f), Radius=%10.4f\n", well1.center.x, well1.center.y, well1.radius);
+	fprintf(f, "Well 2 | Center = (%10.4f, %10.4f), Radius=%10.4f\n", well2.center.x, well2.center.y, well2.radius);
+
+	// Εκτύπωση των αρχικών σημείων
 	fprintf(f, "Initial particle positions: \n");
 	for(int i = 0; i != particles.size(); ++i)
 	{
 		fprintf(f, "particle=%3d | x=%10.4f | Y=%10.4f\n", i, particles[i].position.x, particles[i].position.y);
 	}
-	
+
+	// Για κάθε βημα
 	for (int i = 0; i != steps; i++)
 	{
 		fprintf(f, "STEP %3d\n", i);
-		// For each particle
+		// + Για κάθε σωματίδιο στο τρέχων βήμα
 		for (unsigned int j = 0; j != particles.size(); j++)
 		{
+			// Υπολογισμός ταχυτήτων
+			
 			const double c = Q / (2 * A * N * PI);
 
 			const double particle_x = particles[j].position.x;
 			const double particle_y = particles[j].position.y;
 
-			const double well1_x = well1.center_.x;
-			const double well1_y = well1.center_.y;
+			const double well1_x = well1.center.x;
+			const double well1_y = well1.center.y;
 
-			const double well2_x = well2.center_.x;
-			const double well2_y = well2.center_.y;
+			const double well2_x = well2.center.x;
+			const double well2_y = well2.center.y;
 
 			const double xxa = particle_x - well1_x;
 			const double yya = particle_y - well1_y;
@@ -150,6 +161,7 @@ void track_contamination(
 
 			double inverse_modifier = 1.0;
 
+			// Αντιστρέφουμε πρόσημα εαν κανουμε ανάποδη προσομοιωση
 			if(inverse)
 			{
 				vx *= -1;
@@ -160,31 +172,35 @@ void track_contamination(
 			const double new_position_x = particle_x + (vx * deltaT);
 			const double new_position_y = particle_y + (vy * deltaT) + (VE * deltaT * inverse_modifier);
 
+			// Εάν σε κάποιο προιγούμενο βήμα έχουμε υπολογίσει οτι το συγκεκριμένο σωματίδιο έχει σταματήσει
+			// Εκτυπώνουμε απλά σε ποιο βήμα σταματήσαμε.
 			if(particles[j].halted_step != -1)
 			{
 				fprintf(f, "particle=%3d | newX=%10.4f | newY=%10.4f | HALT AT STEP=%2d\n", j, particles[j].position.x, particles[j].position.y, particles[j].halted_step);
 				continue;
 			}
-			
-			// If the new position of the particle resutls in a distance shorter than (HALT_DISTANCE), skip and goto next particle
-			if (get_distance(well1.center_, point_2d(new_position_x, new_position_y)) < HALT_DISTANCE)
+
+			// Check-aroume αποσταση particle + πηγάδι 1
+			if (get_distance(well1.center, point_2d(new_position_x, new_position_y)) < HALT_DISTANCE)
 			{
 				fprintf(f, "Particle %3d is halted at position (%10.4f, %10.4f) due to being close to well 1\n", j, particle_x, particle_y);
 				particles[j].halted_step = i;
 				continue;
 			}
 
-			// Same for well 2
-			if (get_distance(well2.center_, point_2d(new_position_x, new_position_y)) < HALT_DISTANCE)
+			// Check-aroume αποσταση particle + πηγάδι 2
+			if (get_distance(well2.center, point_2d(new_position_x, new_position_y)) < HALT_DISTANCE)
 			{
 				fprintf(f, "Particle %3d is halted at position (%10.4f, %10.4f) due to being close to well 2\n", j, particle_x, particle_y);
 				particles[j].halted_step = i;
 				continue;
 			}
-			
+
+			// Ενημερώνουμε συνεταγμένες στον πίνακα μας / λίστα / vector
 			particles[j].position.x = particle_x + (vx * deltaT);
 			particles[j].position.y = particle_y + (vy * deltaT) + (VE * deltaT * inverse_modifier);
 
+			// Εκτυπώνουμε
 			fprintf(f, "particle=%3d | newX=%10.4f | newY=%10.4f\n", j, particles[j].position.x, particles[j].position.y);
 		}
 	}
