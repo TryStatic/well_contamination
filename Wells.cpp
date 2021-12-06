@@ -5,13 +5,14 @@
 #pragma warning(disable:4996)
 
 // Σταθερές
-#define PI 3.14159265358979323846
-#define Q 0.03
-#define K 0.0001
-#define A 40
-#define N 0.2
-#define VE 0.000005
-#define HALT_DISTANCE 50.0
+#define PI				3.14159265358979323846
+#define Q				0.03
+#define K				0.0001
+#define A				40
+#define N				0.2
+#define VE				0.000005
+#define HALT_DISTANCE	50.0
+#define BACKTRACK_STEPS 9
 
 // Δομή για τα σημεία
 struct point_2d
@@ -111,6 +112,9 @@ void track_contamination( // Παράμετροι:
 		particles.emplace_back(p);
 	}
 
+	std::vector<std::vector<particle>> particles_memory;
+	particles_memory.emplace_back(particles);
+
 	// Εκτύπωση πληροφοριών για τήν τρέχουσα προσομοίωση
 	fprintf(f, "Tracking contamination for %3d particles and %3d time steps. Reverse tracking: %s\n", particles.size(), steps, inverse ? "Enabled" : "Disabled");
 	fprintf(f, "Well 1 | Center = (%10.4f, %10.4f), Radius=%10.4f\n", well1.center.x, well1.center.y, well1.radius);
@@ -126,7 +130,7 @@ void track_contamination( // Παράμετροι:
 	// Για κάθε βημα
 	for (int i = 0; i != steps; i++)
 	{
-		fprintf(f, "STEP %3d\n", i);
+		fprintf(f, "STEP %3d | DAY %4d\n", i, (i+1) * deltaT / (60 * 60 * 24));
 		// + Για κάθε σωματίδιο στο τρέχων βήμα
 		for (unsigned int j = 0; j != particles.size(); j++)
 		{
@@ -180,26 +184,53 @@ void track_contamination( // Παράμετροι:
 				continue;
 			}
 
+			// Μεταβλητή ελέγχου (εαν κάποιο σωματήδιο πάει κοντά σε κάποιο απο τα πηγάδια θα πάρει τον αριθμό του πηγαδιού... 1 ή 2)
+			int getting_close_to_well = -1;
+
 			// Check-aroume αποσταση particle + πηγάδι 1
 			if (get_distance(well1.center, point_2d(new_position_x, new_position_y)) < HALT_DISTANCE)
 			{
-				fprintf(f, "Particle %3d is halted at position (%10.4f, %10.4f) due to being close to well 1\n", j, particle_x, particle_y);
+				fprintf(f, "Particle=%3d is halted at position (%10.4f, %10.4f) due to being close to well 1\n", j, particle_x, particle_y);
 				particles[j].halted_step = i;
-				continue;
+				getting_close_to_well = 1;
 			}
 
 			// Check-aroume αποσταση particle + πηγάδι 2
 			if (get_distance(well2.center, point_2d(new_position_x, new_position_y)) < HALT_DISTANCE)
 			{
-				fprintf(f, "Particle %3d is halted at position (%10.4f, %10.4f) due to being close to well 2\n", j, particle_x, particle_y);
+				fprintf(f, "Particle=%3d is halted at position (%10.4f, %10.4f) due to being close to well 2\n", j, particle_x, particle_y);
 				particles[j].halted_step = i;
-				continue;
+ 				getting_close_to_well = 2;
+			}
+
+			// Εαν η μεταβλητή μας είναι διαφορετική από το -1, συμαίνει οτι το συγκεκριμένο σωματήδιο (j) στο συγκεκριμένο βήμα (i)
+			// κοντεύει να μπεί στο πηγάδι (dist < 50m). Σταματάμε εδώ και κάνουμε backtrack στην μνήμη να βρούμε την τοποθεσία του
+			// 6 μήνες πριν.
+			if(getting_close_to_well != -1)
+			{
+				// Πρέπει να βρούμε ποιο βήμα αντιστοιχεί σε 6 μήνες πρίν.
+				// Αν 1 βήμα είναι 20 ήμερες τότε 9 βήματα θα έιναι 180 ήμερες ή αλλιώς 6 μήνες.
+				// Αρά θέλουμε να βρούμε που ήταν το σωματήδιο 9 βήματα πριν (i - 9)
+
+				int backtrack_step = i - 9;
+
+				// Sanity check
+				if (backtrack_step < 0) backtrack_step = 0;
+
+				double pos_x = particles_memory[backtrack_step][j].position.x;
+				double pos_y = particles_memory[backtrack_step][j].position.y;
+				
+				fprintf(f, "ALERT for particle %2d at position (%10.4f, %10.4f) would contamine well %2d within 6 months.\n", j, pos_x, pos_y, getting_close_to_well);
+				return;
 			}
 
 			// Ενημερώνουμε συνεταγμένες στον πίνακα μας / λίστα / vector
 			particles[j].position.x = particle_x + (vx * deltaT);
 			particles[j].position.y = particle_y + (vy * deltaT) + (VE * deltaT * inverse_modifier);
 
+			// Βάζουμε τις συντεταγμένες στην μνήμη.
+			particles_memory.emplace_back(particles);
+			
 			// Εκτυπώνουμε
 			fprintf(f, "particle=%3d | newX=%10.4f | newY=%10.4f\n", j, particles[j].position.x, particles[j].position.y);
 		}
