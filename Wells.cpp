@@ -90,7 +90,7 @@ double get_distance(const point_2d& point1, const point_2d& point2)
 
 // Συνάρτηση υπολογισμού σωματιδίων μόλυνσης
 void track_contamination( // Παράμετροι:
-	FILE* f, // Το αρχείο για το output
+	std::string filename, // Το αρχείο για το output
 	const well well1, // To πρώτο πηγάδι
 	const well well2, // To δεύτερο πηγάδι
 	const std::vector<point_2d>& particle_positions, // Λίστα με τα αρχικά σημεία
@@ -99,6 +99,14 @@ void track_contamination( // Παράμετροι:
 	const bool inverse = false // Εάν υπολογίζουμε ανάποδα ή οχι
 	)
 {
+	FILE* f = fopen(filename.c_str(), "w");
+
+	if (!f)
+	{
+		std::cout << "Could not open " <<  filename << " file for writing." << std::endl;
+		return;
+	}
+	
 	// Λίστα για τα σωματίδια
 	std::vector<particle> particles;
 
@@ -221,6 +229,8 @@ void track_contamination( // Παράμετροι:
 				double pos_y = particles_memory[backtrack_step][j].position.y;
 				
 				fprintf(f, "ALERT for particle %2d at position (%10.4f, %10.4f) would contamine well %2d within 6 months.\n", j, pos_x, pos_y, getting_close_to_well);
+
+				fclose(f);
 				return;
 			}
 
@@ -235,18 +245,12 @@ void track_contamination( // Παράμετροι:
 			fprintf(f, "particle=%3d | newX=%10.4f | newY=%10.4f\n", j, particles[j].position.x, particles[j].position.y);
 		}
 	}
+
+	fclose(f);
 }
 
 int main()
 {
-	FILE* file = fopen("output.txt", "w");
-
-	if(!file)
-	{
-		std::cout << "Could not open output.txt file for writing." << std::endl;
-		return 0;
-	}
-	
 	const int steps = 92;
 	const int particle_count = 10;
 
@@ -274,7 +278,7 @@ int main()
 		point_2d(1050.0, 150.0),
 	};
 
-	track_contamination(file, well1, well2, particles1, 92, 1728000);
+	track_contamination("well1.txt", well1, well2, particles1, 92, 1728000);
 
 
 	const std::vector<point_2d> particles2 =
@@ -297,7 +301,7 @@ int main()
 		point_2d(350.00,	100.00),
 	};
 
-	track_contamination(file, well1, well2, particles2, 92, 1728000);
+	track_contamination("well2.txt", well1, well2, particles2, 92, 1728000);
 
 	
 	const std::vector<point_2d> particles3 =
@@ -314,7 +318,7 @@ int main()
 		point_2d(125.00, 1195.00),
 	};
 
-	track_contamination(file, well1, well2, particles3, 92, 1728000, true);
+	track_contamination("well3-inverse.txt", well1, well2, particles3, 92, 1728000, true);
 
 
 	const std::vector<point_2d> particles4 =
@@ -331,7 +335,7 @@ int main()
 		point_2d(325.00,	695.00)
 	};
 
-	track_contamination(file, well1, well2, particles4, 92, 1296000, true);
+	track_contamination("well4-inverse.txt", well1, well2, particles4, 92, 1296000, true);
 
 	const std::vector<point_2d> particles5 =
 	{
@@ -347,7 +351,7 @@ int main()
 		point_2d(825,	1095),
 	};
 
-	track_contamination(file, well1, well2, particles5, 92, 1728000, true);
+	track_contamination("well5-inverse.txt", well1, well2, particles5, 92, 1728000, true);
 
 	const std::vector<point_2d> particles6 =
 	{
@@ -363,7 +367,5 @@ int main()
 		point_2d(1225.00, 995.00),
 	};
 
-	track_contamination(file, well1, well2, particles6, 92, 1728000, true);
-
-	fclose(file);
+	track_contamination("well6-inverse.txt", well1, well2, particles6, 92, 1728000, true);
 }

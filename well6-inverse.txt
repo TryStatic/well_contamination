@@ -1,0 +1,765 @@
+Tracking contamination for  10 particles and  92 time steps. Reverse tracking: Enabled
+Well 1 | Center = ( 1000.0000,   150.0000), Radius=   50.0000
+Well 2 | Center = (  300.0000,   100.0000), Radius=   50.0000
+Initial particle positions: 
+particle=  0 | x= 1180.0000 | Y=  995.0000
+particle=  1 | x= 1185.0000 | Y=  995.0000
+particle=  2 | x= 1190.0000 | Y=  995.0000
+particle=  3 | x= 1195.0000 | Y=  995.0000
+particle=  4 | x= 1200.0000 | Y=  995.0000
+particle=  5 | x=  805.0000 | Y=  995.0000
+particle=  6 | x= 1210.0000 | Y=  995.0000
+particle=  7 | x= 1215.0000 | Y=  995.0000
+particle=  8 | x= 1220.0000 | Y=  995.0000
+particle=  9 | x= 1225.0000 | Y=  995.0000
+STEP   0 | DAY   20
+particle=  0 | newX= 1179.1752 | newY=  984.6066
+particle=  1 | newX= 1184.1689 | newY=  984.6127
+particle=  2 | newX= 1189.1626 | newY=  984.6188
+particle=  3 | newX= 1194.1564 | newY=  984.6251
+particle=  4 | newX= 1199.1503 | newY=  984.6313
+particle=  5 | newX=  804.7742 | newY=  984.3272
+particle=  6 | newX= 1209.1382 | newY=  984.6439
+particle=  7 | newX= 1214.1323 | newY=  984.6503
+particle=  8 | newX= 1219.1265 | newY=  984.6567
+particle=  9 | newX= 1224.1207 | newY=  984.6631
+STEP   1 | DAY   40
+particle=  0 | newX= 1178.3387 | newY=  974.1988
+particle=  1 | newX= 1183.3260 | newY=  974.2112
+particle=  2 | newX= 1188.3133 | newY=  974.2236
+particle=  3 | newX= 1193.3009 | newY=  974.2361
+particle=  4 | newX= 1198.2885 | newY=  974.2488
+particle=  5 | newX=  804.5464 | newY=  973.6356
+particle=  6 | newX= 1208.2642 | newY=  974.2743
+particle=  7 | newX= 1213.2523 | newY=  974.2872
+particle=  8 | newX= 1218.2405 | newY=  974.3001
+particle=  9 | newX= 1223.2289 | newY=  974.3131
+STEP   2 | DAY   60
+particle=  0 | newX= 1177.4902 | newY=  963.7764
+particle=  1 | newX= 1182.4709 | newY=  963.7951
+particle=  2 | newX= 1187.4519 | newY=  963.8140
+particle=  3 | newX= 1192.4330 | newY=  963.8330
+particle=  4 | newX= 1197.4143 | newY=  963.8522
+particle=  5 | newX=  804.3164 | newY=  962.9249
+particle=  6 | newX= 1207.3777 | newY=  963.8908
+particle=  7 | newX= 1212.3597 | newY=  963.9104
+particle=  8 | newX= 1217.3419 | newY=  963.9300
+particle=  9 | newX= 1222.3243 | newY=  963.9498
+STEP   3 | DAY   80
+particle=  0 | newX= 1176.6294 | newY=  953.3390
+particle=  1 | newX= 1181.6035 | newY=  953.3643
+particle=  2 | newX= 1186.5779 | newY=  953.3897
+particle=  3 | newX= 1191.5526 | newY=  953.4154
+particle=  4 | newX= 1196.5275 | newY=  953.4412
+particle=  5 | newX=  804.0844 | newY=  952.1949
+particle=  6 | newX= 1206.4783 | newY=  953.4933
+particle=  7 | newX= 1211.4541 | newY=  953.5196
+particle=  8 | newX= 1216.4302 | newY=  953.5461
+particle=  9 | newX= 1221.4066 | newY=  953.5728
+STEP   4 | DAY  100
+particle=  0 | newX= 1175.7561 | newY=  942.8864
+particle=  1 | newX= 1180.7235 | newY=  942.9183
+particle=  2 | newX= 1185.6912 | newY=  942.9505
+particle=  3 | newX= 1190.6593 | newY=  942.9829
+particle=  4 | newX= 1195.6278 | newY=  943.0155
+particle=  5 | newX=  803.8504 | newY=  941.4451
+particle=  6 | newX= 1205.5658 | newY=  943.0814
+particle=  7 | newX= 1210.5354 | newY=  943.1147
+particle=  8 | newX= 1215.5053 | newY=  943.1482
+particle=  9 | newX= 1220.4756 | newY=  943.1819
+STEP   5 | DAY  120
+particle=  0 | newX= 1174.8700 | newY=  932.4182
+particle=  1 | newX= 1179.8305 | newY=  932.4570
+particle=  2 | newX= 1184.7915 | newY=  932.4960
+particle=  3 | newX= 1189.7529 | newY=  932.5353
+particle=  4 | newX= 1194.7148 | newY=  932.5749
+particle=  5 | newX=  803.6145 | newY=  930.6753
+particle=  6 | newX= 1204.6399 | newY=  932.6549
+particle=  7 | newX= 1209.6031 | newY=  932.6953
+particle=  8 | newX= 1214.5668 | newY=  932.7360
+particle=  9 | newX= 1219.5309 | newY=  932.7769
+STEP   6 | DAY  140
+particle=  0 | newX= 1173.9707 | newY=  921.9341
+particle=  1 | newX= 1178.9243 | newY=  921.9798
+particle=  2 | newX= 1183.8784 | newY=  922.0259
+particle=  3 | newX= 1188.8331 | newY=  922.0723
+particle=  4 | newX= 1193.7883 | newY=  922.1190
+particle=  5 | newX=  803.3766 | newY=  919.8850
+particle=  6 | newX= 1203.7002 | newY=  922.2135
+particle=  7 | newX= 1208.6570 | newY=  922.2611
+particle=  8 | newX= 1213.6143 | newY=  922.3091
+particle=  9 | newX= 1218.5722 | newY=  922.3574
+STEP   7 | DAY  160
+particle=  0 | newX= 1173.0579 | newY=  911.4338
+particle=  1 | newX= 1178.0045 | newY=  911.4866
+particle=  2 | newX= 1182.9517 | newY=  911.5399
+particle=  3 | newX= 1187.8995 | newY=  911.5935
+particle=  4 | newX= 1192.8479 | newY=  911.6475
+particle=  5 | newX=  803.1369 | newY=  909.0739
+particle=  6 | newX= 1202.7465 | newY=  911.7567
+particle=  7 | newX= 1207.6967 | newY=  911.8119
+particle=  8 | newX= 1212.6476 | newY=  911.8673
+particle=  9 | newX= 1217.5991 | newY=  911.9231
+STEP   8 | DAY  180
+particle=  0 | newX= 1172.1314 | newY=  900.9168
+particle=  1 | newX= 1177.0708 | newY=  900.9769
+particle=  2 | newX= 1182.0109 | newY=  901.0375
+particle=  3 | newX= 1186.9517 | newY=  901.0986
+particle=  4 | newX= 1191.8932 | newY=  901.1601
+particle=  5 | newX=  802.8955 | newY=  898.2416
+particle=  6 | newX= 1201.7783 | newY=  901.2844
+particle=  7 | newX= 1206.7219 | newY=  901.3472
+particle=  8 | newX= 1211.6662 | newY=  901.4103
+particle=  9 | newX= 1216.6113 | newY=  901.4738
+STEP   9 | DAY  200
+particle=  0 | newX= 1171.1908 | newY=  890.3828
+particle=  1 | newX= 1176.1229 | newY=  890.4504
+particle=  2 | newX= 1181.0558 | newY=  890.5186
+particle=  3 | newX= 1185.9895 | newY=  890.5872
+particle=  4 | newX= 1190.9240 | newY=  890.6564
+particle=  5 | newX=  802.6523 | newY=  887.3878
+particle=  6 | newX= 1200.7953 | newY=  890.7962
+particle=  7 | newX= 1205.7322 | newY=  890.8667
+particle=  8 | newX= 1210.6699 | newY=  890.9377
+particle=  9 | newX= 1215.6084 | newY=  891.0092
+STEP  10 | DAY  220
+particle=  0 | newX= 1170.2357 | newY=  879.8314
+particle=  1 | newX= 1175.1604 | newY=  879.9067
+particle=  2 | newX= 1180.0860 | newY=  879.9826
+particle=  3 | newX= 1185.0125 | newY=  880.0590
+particle=  4 | newX= 1189.9398 | newY=  880.1360
+particle=  5 | newX=  802.4075 | newY=  876.5121
+particle=  6 | newX= 1199.7972 | newY=  880.2916
+particle=  7 | newX= 1204.7272 | newY=  880.3702
+particle=  8 | newX= 1209.6582 | newY=  880.4493
+particle=  9 | newX= 1214.5900 | newY=  880.5288
+STEP  11 | DAY  240
+particle=  0 | newX= 1169.2658 | newY=  869.2622
+particle=  1 | newX= 1174.1830 | newY=  869.3454
+particle=  2 | newX= 1179.1012 | newY=  869.4291
+particle=  3 | newX= 1184.0203 | newY=  869.5136
+particle=  4 | newX= 1188.9404 | newY=  869.5986
+particle=  5 | newX=  802.1613 | newY=  865.6141
+particle=  6 | newX= 1198.7836 | newY=  869.7704
+particle=  7 | newX= 1203.7066 | newY=  869.8572
+particle=  8 | newX= 1208.6307 | newY=  869.9445
+particle=  9 | newX= 1213.5558 | newY=  870.0324
+STEP  12 | DAY  260
+particle=  0 | newX= 1168.2807 | newY=  858.6748
+particle=  1 | newX= 1173.1902 | newY=  858.7660
+particle=  2 | newX= 1178.1008 | newY=  858.8579
+particle=  3 | newX= 1183.0125 | newY=  858.9505
+particle=  4 | newX= 1187.9252 | newY=  859.0437
+particle=  5 | newX=  801.9136 | newY=  854.6934
+particle=  6 | newX= 1197.7539 | newY=  859.2322
+particle=  7 | newX= 1202.6700 | newY=  859.3274
+particle=  8 | newX= 1207.5871 | newY=  859.4232
+particle=  9 | newX= 1212.5054 | newY=  859.5196
+STEP  13 | DAY  280
+particle=  0 | newX= 1167.2801 | newY=  848.0687
+particle=  1 | newX= 1172.1818 | newY=  848.1681
+particle=  2 | newX= 1177.0846 | newY=  848.2683
+particle=  3 | newX= 1181.9887 | newY=  848.3693
+particle=  4 | newX= 1186.8939 | newY=  848.4710
+particle=  5 | newX=  801.6648 | newY=  843.7496
+particle=  6 | newX= 1196.7080 | newY=  848.6766
+particle=  7 | newX= 1201.6168 | newY=  848.7804
+particle=  8 | newX= 1206.5269 | newY=  848.8848
+particle=  9 | newX= 1211.4382 | newY=  848.9899
+STEP  14 | DAY  300
+particle=  0 | newX= 1166.2634 | newY=  837.4434
+particle=  1 | newX= 1171.1571 | newY=  837.5512
+particle=  2 | newX= 1176.0522 | newY=  837.6600
+particle=  3 | newX= 1180.9485 | newY=  837.7696
+particle=  4 | newX= 1185.8461 | newY=  837.8799
+particle=  5 | newX=  801.4148 | newY=  832.7823
+particle=  6 | newX= 1195.6452 | newY=  838.1030
+particle=  7 | newX= 1200.5468 | newY=  838.2157
+particle=  8 | newX= 1205.4496 | newY=  838.3291
+particle=  9 | newX= 1210.3539 | newY=  838.4431
+STEP  15 | DAY  320
+particle=  0 | newX= 1165.2303 | newY=  826.7984
+particle=  1 | newX= 1170.1160 | newY=  826.9150
+particle=  2 | newX= 1175.0030 | newY=  827.0325
+particle=  3 | newX= 1179.8914 | newY=  827.1509
+particle=  4 | newX= 1184.7812 | newY=  827.2701
+particle=  5 | newX=  801.1640 | newY=  821.7910
+particle=  6 | newX= 1194.5652 | newY=  827.5112
+particle=  7 | newX= 1199.4593 | newY=  827.6330
+particle=  8 | newX= 1204.3549 | newY=  827.7555
+particle=  9 | newX= 1209.2519 | newY=  827.8787
+STEP  16 | DAY  340
+particle=  0 | newX= 1164.1804 | newY=  816.1332
+particle=  1 | newX= 1169.0577 | newY=  816.2587
+particle=  2 | newX= 1173.9366 | newY=  816.3852
+particle=  3 | newX= 1178.8170 | newY=  816.5127
+particle=  4 | newX= 1183.6989 | newY=  816.6411
+particle=  5 | newX=  800.9124 | newY=  810.7754
+particle=  6 | newX= 1193.4674 | newY=  816.9006
+particle=  7 | newX= 1198.3540 | newY=  817.0317
+particle=  8 | newX= 1203.2422 | newY=  817.1636
+particle=  9 | newX= 1208.1319 | newY=  817.2963
+STEP  17 | DAY  360
+particle=  0 | newX= 1163.1131 | newY=  805.4474
+particle=  1 | newX= 1167.9820 | newY=  805.5820
+particle=  2 | newX= 1172.8526 | newY=  805.7177
+particle=  3 | newX= 1177.7248 | newY=  805.8545
+particle=  4 | newX= 1182.5987 | newY=  805.9923
+particle=  5 | newX=  800.6602 | newY=  799.7350
+particle=  6 | newX= 1192.3514 | newY=  806.2708
+particle=  7 | newX= 1197.2303 | newY=  806.4115
+particle=  8 | newX= 1202.1109 | newY=  806.5530
+particle=  9 | newX= 1206.9932 | newY=  806.6954
+STEP  18 | DAY  380
+particle=  0 | newX= 1162.0280 | newY=  794.7402
+particle=  1 | newX= 1166.8884 | newY=  794.8842
+particle=  2 | newX= 1171.7504 | newY=  795.0294
+particle=  3 | newX= 1176.6143 | newY=  795.1757
+particle=  4 | newX= 1181.4800 | newY=  795.3232
+particle=  5 | newX=  800.4078 | newY=  788.6695
+particle=  6 | newX= 1191.2166 | newY=  795.6212
+particle=  7 | newX= 1196.0877 | newY=  795.7717
+particle=  8 | newX= 1200.9606 | newY=  795.9232
+particle=  9 | newX= 1205.8354 | newY=  796.0756
+STEP  19 | DAY  400
+particle=  0 | newX= 1160.9246 | newY=  784.0110
+particle=  1 | newX= 1165.7762 | newY=  784.1648
+particle=  2 | newX= 1170.6296 | newY=  784.3197
+particle=  3 | newX= 1175.4850 | newY=  784.4759
+particle=  4 | newX= 1180.3422 | newY=  784.6332
+particle=  5 | newX=  800.1554 | newY=  777.5783
+particle=  6 | newX= 1190.0626 | newY=  784.9513
+particle=  7 | newX= 1194.9257 | newY=  785.1120
+particle=  8 | newX= 1199.7908 | newY=  785.2737
+particle=  9 | newX= 1204.6579 | newY=  785.4363
+STEP  20 | DAY  420
+particle=  0 | newX= 1159.8024 | newY=  773.2594
+particle=  1 | newX= 1164.6449 | newY=  773.4230
+particle=  2 | newX= 1169.4896 | newY=  773.5880
+particle=  3 | newX= 1174.3362 | newY=  773.7543
+particle=  4 | newX= 1179.1849 | newY=  773.9219
+particle=  5 | newX=  799.9033 | newY=  766.4610
+particle=  6 | newX= 1188.8886 | newY=  774.2606
+particle=  7 | newX= 1193.7436 | newY=  774.4317
+particle=  8 | newX= 1198.6008 | newY=  774.6039
+particle=  9 | newX= 1203.4600 | newY=  774.7771
+STEP  21 | DAY  440
+particle=  0 | newX= 1158.6607 | newY=  762.4845
+particle=  1 | newX= 1163.4941 | newY=  762.6584
+particle=  2 | newX= 1168.3297 | newY=  762.8337
+particle=  3 | newX= 1173.1675 | newY=  763.0104
+particle=  4 | newX= 1178.0075 | newY=  763.1885
+particle=  5 | newX=  799.6518 | newY=  755.3172
+particle=  6 | newX= 1187.6942 | newY=  763.5484
+particle=  7 | newX= 1192.5409 | newY=  763.7303
+particle=  8 | newX= 1197.3899 | newY=  763.9133
+particle=  9 | newX= 1202.2412 | newY=  764.0974
+STEP  22 | DAY  460
+particle=  0 | newX= 1157.4990 | newY=  751.6856
+particle=  1 | newX= 1162.3231 | newY=  751.8701
+particle=  2 | newX= 1167.1495 | newY=  752.0560
+particle=  3 | newX= 1171.9782 | newY=  752.2435
+particle=  4 | newX= 1176.8093 | newY=  752.4324
+particle=  5 | newX=  799.4012 | newY=  744.1464
+particle=  6 | newX= 1186.4786 | newY=  752.8142
+particle=  7 | newX= 1191.3169 | newY=  753.0071
+particle=  8 | newX= 1196.1577 | newY=  753.2013
+particle=  9 | newX= 1201.0009 | newY=  753.3966
+STEP  23 | DAY  480
+particle=  0 | newX= 1156.3167 | newY=  740.8621
+particle=  1 | newX= 1161.1312 | newY=  741.0574
+particle=  2 | newX= 1165.9482 | newY=  741.2543
+particle=  3 | newX= 1170.7676 | newY=  741.4528
+particle=  4 | newX= 1175.5896 | newY=  741.6529
+particle=  5 | newX=  799.1520 | newY=  732.9482
+particle=  6 | newX= 1185.2413 | newY=  742.0573
+particle=  7 | newX= 1190.0710 | newY=  742.2616
+particle=  8 | newX= 1194.9033 | newY=  742.4672
+particle=  9 | newX= 1199.7382 | newY=  742.6741
+STEP  24 | DAY  500
+particle=  0 | newX= 1155.1132 | newY=  730.0131
+particle=  1 | newX= 1159.9179 | newY=  730.2196
+particle=  2 | newX= 1164.7252 | newY=  730.4278
+particle=  3 | newX= 1169.5352 | newY=  730.6377
+particle=  4 | newX= 1174.3479 | newY=  730.8493
+particle=  5 | newX=  798.9046 | newY=  721.7222
+particle=  6 | newX= 1183.9815 | newY=  731.2770
+particle=  7 | newX= 1188.8024 | newY=  731.4931
+particle=  8 | newX= 1193.6261 | newY=  731.7105
+particle=  9 | newX= 1198.4526 | newY=  731.9293
+STEP  25 | DAY  520
+particle=  0 | newX= 1153.8877 | newY=  719.1377
+particle=  1 | newX= 1158.6823 | newY=  719.3558
+particle=  2 | newX= 1163.4797 | newY=  719.5757
+particle=  3 | newX= 1168.2801 | newY=  719.7974
+particle=  4 | newX= 1173.0832 | newY=  720.0208
+particle=  5 | newX=  798.6595 | newY=  710.4678
+particle=  6 | newX= 1182.6984 | newY=  720.4725
+particle=  7 | newX= 1187.5104 | newY=  720.7008
+particle=  8 | newX= 1192.3253 | newY=  720.9305
+particle=  9 | newX= 1197.1432 | newY=  721.1616
+STEP  26 | DAY  540
+particle=  0 | newX= 1152.6395 | newY=  708.2351
+particle=  1 | newX= 1157.4238 | newY=  708.4651
+particle=  2 | newX= 1162.2111 | newY=  708.6971
+particle=  3 | newX= 1167.0015 | newY=  708.9309
+particle=  4 | newX= 1171.7950 | newY=  709.1666
+particle=  5 | newX=  798.4173 | newY=  699.1848
+particle=  6 | newX= 1181.3913 | newY=  709.6432
+particle=  7 | newX= 1186.1941 | newY=  709.8840
+particle=  8 | newX= 1191.0001 | newY=  710.1263
+particle=  9 | newX= 1195.8093 | newY=  710.3701
+STEP  27 | DAY  560
+particle=  0 | newX= 1151.3678 | newY=  697.3043
+particle=  1 | newX= 1156.1416 | newY=  697.5466
+particle=  2 | newX= 1160.9186 | newY=  697.7911
+particle=  3 | newX= 1165.6988 | newY=  698.0375
+particle=  4 | newX= 1170.4823 | newY=  698.2859
+particle=  5 | newX=  798.1785 | newY=  687.8725
+particle=  6 | newX= 1180.0593 | newY=  698.7881
+particle=  7 | newX= 1184.8528 | newY=  699.0419
+particle=  8 | newX= 1189.6497 | newY=  699.2973
+particle=  9 | newX= 1194.4499 | newY=  699.5542
+STEP  28 | DAY  580
+particle=  0 | newX= 1150.0719 | newY=  686.3443
+particle=  1 | newX= 1154.8348 | newY=  686.5994
+particle=  2 | newX= 1159.6012 | newY=  686.8567
+particle=  3 | newX= 1164.3710 | newY=  687.1162
+particle=  4 | newX= 1169.1444 | newY=  687.3777
+particle=  5 | newX=  797.9439 | newY=  676.5307
+particle=  6 | newX= 1178.7016 | newY=  687.9065
+particle=  7 | newX= 1183.4855 | newY=  688.1736
+particle=  8 | newX= 1188.2731 | newY=  688.4425
+particle=  9 | newX= 1193.0642 | newY=  688.7131
+STEP  29 | DAY  600
+particle=  0 | newX= 1148.7508 | newY=  675.3539
+particle=  1 | newX= 1153.5027 | newY=  675.6223
+particle=  2 | newX= 1158.2581 | newY=  675.8930
+particle=  3 | newX= 1163.0173 | newY=  676.1659
+particle=  4 | newX= 1167.7802 | newY=  676.4410
+particle=  5 | newX=  797.7142 | newY=  665.1588
+particle=  6 | newX= 1177.3172 | newY=  676.9973
+particle=  7 | newX= 1182.0914 | newY=  677.2784
+particle=  8 | newX= 1186.8694 | newY=  677.5613
+particle=  9 | newX= 1191.6512 | newY=  677.8459
+STEP  30 | DAY  620
+particle=  0 | newX= 1147.4037 | newY=  664.3322
+particle=  1 | newX= 1152.1441 | newY=  664.6142
+particle=  2 | newX= 1156.8884 | newY=  664.8988
+particle=  3 | newX= 1161.6366 | newY=  665.1856
+particle=  4 | newX= 1166.3888 | newY=  665.4748
+particle=  5 | newX=  797.4902 | newY=  653.7565
+particle=  6 | newX= 1175.9051 | newY=  666.0596
+particle=  7 | newX= 1180.6693 | newY=  666.3551
+particle=  8 | newX= 1185.4375 | newY=  666.6525
+particle=  9 | newX= 1190.2099 | newY=  666.9518
+STEP  31 | DAY  640
+particle=  0 | newX= 1146.0296 | newY=  653.2777
+particle=  1 | newX= 1150.7582 | newY=  653.5740
+particle=  2 | newX= 1155.4910 | newY=  653.8729
+particle=  3 | newX= 1160.2280 | newY=  654.1742
+particle=  4 | newX= 1164.9691 | newY=  654.4780
+particle=  5 | newX=  797.2728 | newY=  642.3235
+particle=  6 | newX= 1174.4642 | newY=  655.0925
+particle=  7 | newX= 1179.2182 | newY=  655.4029
+particle=  8 | newX= 1183.9765 | newY=  655.7153
+particle=  9 | newX= 1188.7391 | newY=  656.0297
+STEP  32 | DAY  660
+particle=  0 | newX= 1144.6273 | newY=  642.1893
+particle=  1 | newX= 1149.3439 | newY=  642.5003
+particle=  2 | newX= 1154.0648 | newY=  642.8141
+particle=  3 | newX= 1158.7902 | newY=  643.1305
+particle=  4 | newX= 1163.5201 | newY=  643.4495
+particle=  5 | newX=  797.0630 | newY=  630.8593
+particle=  6 | newX= 1172.9935 | newY=  644.0946
+particle=  7 | newX= 1177.7370 | newY=  644.4206
+particle=  8 | newX= 1182.4851 | newY=  644.7487
+particle=  9 | newX= 1187.2378 | newY=  645.0788
+STEP  33 | DAY  680
+particle=  0 | newX= 1143.1958 | newY=  631.0653
+particle=  1 | newX= 1147.8999 | newY=  631.3917
+particle=  2 | newX= 1152.6087 | newY=  631.7210
+particle=  3 | newX= 1157.3223 | newY=  632.0531
+particle=  4 | newX= 1162.0406 | newY=  632.3879
+particle=  5 | newX=  796.8621 | newY=  619.3636
+particle=  6 | newX= 1171.4916 | newY=  633.0650
+particle=  7 | newX= 1176.2244 | newY=  633.4071
+particle=  8 | newX= 1180.9621 | newY=  633.7514
+particle=  9 | newX= 1185.7047 | newY=  634.0978
+STEP  34 | DAY  700
+particle=  0 | newX= 1141.7339 | newY=  619.9044
+particle=  1 | newX= 1146.4252 | newY=  620.2468
+particle=  2 | newX= 1151.1215 | newY=  620.5922
+particle=  3 | newX= 1155.8228 | newY=  620.9406
+particle=  4 | newX= 1160.5292 | newY=  621.2918
+particle=  5 | newX=  796.6711 | newY=  607.8361
+particle=  6 | newX= 1169.9573 | newY=  622.0022
+particle=  7 | newX= 1174.6792 | newY=  622.3611
+particle=  8 | newX= 1179.4062 | newY=  622.7224
+particle=  9 | newX= 1184.1384 | newY=  623.0858
+STEP  35 | DAY  720
+particle=  0 | newX= 1140.2402 | newY=  608.7049
+particle=  1 | newX= 1144.9183 | newY=  609.0639
+particle=  2 | newX= 1149.6017 | newY=  609.4262
+particle=  3 | newX= 1154.2904 | newY=  609.7916
+particle=  4 | newX= 1158.9846 | newY=  610.1599
+particle=  5 | newX=  796.4916 | newY=  596.2767
+particle=  6 | newX= 1168.3892 | newY=  610.9049
+particle=  7 | newX= 1173.0998 | newY=  611.2814
+particle=  8 | newX= 1177.8158 | newY=  611.6603
+particle=  9 | newX= 1182.5374 | newY=  612.0414
+STEP  36 | DAY  740
+particle=  0 | newX= 1138.7134 | newY=  597.4650
+particle=  1 | newX= 1143.3778 | newY=  597.8414
+particle=  2 | newX= 1148.0479 | newY=  598.2212
+particle=  3 | newX= 1152.7237 | newY=  598.6043
+particle=  4 | newX= 1157.4052 | newY=  598.9905
+particle=  5 | newX=  796.3249 | newY=  584.6849
+particle=  6 | newX= 1166.7857 | newY=  599.7718
+particle=  7 | newX= 1171.4847 | newY=  600.1665
+particle=  8 | newX= 1176.1896 | newY=  600.5638
+particle=  9 | newX= 1180.9004 | newY=  600.9634
+STEP  37 | DAY  760
+particle=  0 | newX= 1137.1519 | newY=  586.1827
+particle=  1 | newX= 1141.8022 | newY=  586.5773
+particle=  2 | newX= 1146.4586 | newY=  586.9755
+particle=  3 | newX= 1151.1210 | newY=  587.3771
+particle=  4 | newX= 1155.7896 | newY=  587.7821
+particle=  5 | newX=  796.1728 | newY=  573.0608
+particle=  6 | newX= 1165.1453 | newY=  588.6011
+particle=  7 | newX= 1169.8324 | newY=  589.0149
+particle=  8 | newX= 1174.5258 | newY=  589.4314
+particle=  9 | newX= 1179.2255 | newY=  589.8504
+STEP  38 | DAY  780
+particle=  0 | newX= 1135.5541 | newY=  574.8560
+particle=  1 | newX= 1140.1898 | newY=  575.2696
+particle=  2 | newX= 1144.8320 | newY=  575.6871
+particle=  3 | newX= 1149.4807 | newY=  576.1081
+particle=  4 | newX= 1154.1359 | newY=  576.5326
+particle=  5 | newX=  796.0373 | newY=  561.4042
+particle=  6 | newX= 1163.4660 | newY=  577.3913
+particle=  7 | newX= 1168.1410 | newY=  577.8251
+particle=  8 | newX= 1172.8227 | newY=  578.2616
+particle=  9 | newX= 1177.5110 | newY=  578.7008
+STEP  39 | DAY  800
+particle=  0 | newX= 1133.9182 | newY=  563.4826
+particle=  1 | newX= 1138.5388 | newY=  563.9162
+particle=  2 | newX= 1143.1664 | newY=  564.3538
+particle=  3 | newX= 1147.8008 | newY=  564.7952
+particle=  4 | newX= 1152.4422 | newY=  565.2402
+particle=  5 | newX=  795.9202 | newY=  549.7151
+particle=  6 | newX= 1161.7461 | newY=  566.1404
+particle=  7 | newX= 1166.4086 | newY=  566.5951
+particle=  8 | newX= 1171.0782 | newY=  567.0528
+particle=  9 | newX= 1175.7549 | newY=  567.5131
+STEP  40 | DAY  820
+particle=  0 | newX= 1132.2422 | newY=  552.0600
+particle=  1 | newX= 1136.8472 | newY=  552.5146
+particle=  2 | newX= 1141.4596 | newY=  552.9734
+particle=  3 | newX= 1146.0793 | newY=  553.4362
+particle=  4 | newX= 1150.7065 | newY=  553.9028
+particle=  5 | newX=  795.8240 | newY=  537.9936
+particle=  6 | newX= 1159.9834 | newY=  554.8465
+particle=  7 | newX= 1164.6331 | newY=  555.3233
+particle=  8 | newX= 1169.2903 | newY=  555.8030
+particle=  9 | newX= 1173.9552 | newY=  556.2856
+STEP  41 | DAY  840
+particle=  0 | newX= 1130.5240 | newY=  540.5856
+particle=  1 | newX= 1135.1128 | newY=  541.0622
+particle=  2 | newX= 1139.7095 | newY=  541.5433
+particle=  3 | newX= 1144.3140 | newY=  542.0286
+particle=  4 | newX= 1148.9266 | newY=  542.5179
+particle=  5 | newX=  795.7511 | newY=  526.2399
+particle=  6 | newX= 1158.1756 | newY=  543.5075
+particle=  7 | newX= 1162.8121 | newY=  544.0074
+particle=  8 | newX= 1167.4567 | newY=  544.5104
+particle=  9 | newX= 1172.1094 | newY=  545.0162
+STEP  42 | DAY  860
+particle=  0 | newX= 1128.7612 | newY=  529.0563
+particle=  1 | newX= 1133.3332 | newY=  529.5562
+particle=  2 | newX= 1137.9136 | newY=  530.0609
+particle=  3 | newX= 1142.5025 | newY=  530.5699
+particle=  4 | newX= 1147.0998 | newY=  531.0831
+particle=  5 | newX=  795.7043 | newY=  514.4543
+particle=  6 | newX= 1156.3202 | newY=  532.1211
+particle=  7 | newX= 1160.9432 | newY=  532.6453
+particle=  8 | newX= 1165.5749 | newY=  533.1728
+particle=  9 | newX= 1170.2151 | newY=  533.7032
+STEP  43 | DAY  880
+particle=  0 | newX= 1126.9512 | newY=  517.4689
+particle=  1 | newX= 1131.5057 | newY=  517.9935
+particle=  2 | newX= 1136.0693 | newY=  518.5230
+particle=  3 | newX= 1140.6419 | newY=  519.0572
+particle=  4 | newX= 1145.2236 | newY=  519.5957
+particle=  5 | newX=  795.6868 | newY=  502.6373
+particle=  6 | newX= 1154.4144 | newY=  520.6846
+particle=  7 | newX= 1159.0236 | newY=  521.2346
+particle=  8 | newX= 1163.6419 | newY=  521.7879
+particle=  9 | newX= 1168.2695 | newY=  522.3442
+STEP  44 | DAY  900
+particle=  0 | newX= 1125.0911 | newY=  505.8199
+particle=  1 | newX= 1129.6275 | newY=  506.3706
+particle=  2 | newX= 1134.1736 | newY=  506.9265
+particle=  3 | newX= 1138.7294 | newY=  507.4872
+particle=  4 | newX= 1143.2949 | newY=  508.0525
+particle=  5 | newX=  795.7019 | newY=  490.7895
+particle=  6 | newX= 1152.4553 | newY=  509.1955
+particle=  7 | newX= 1157.0502 | newY=  509.7726
+particle=  8 | newX= 1161.6550 | newY=  510.3532
+particle=  9 | newX= 1166.2695 | newY=  510.9369
+STEP  45 | DAY  920
+particle=  0 | newX= 1123.1778 | newY=  494.1052
+particle=  1 | newX= 1127.6953 | newY=  494.6837
+particle=  2 | newX= 1132.2232 | newY=  495.2676
+particle=  3 | newX= 1136.7615 | newY=  495.8566
+particle=  4 | newX= 1141.3103 | newY=  496.4502
+particle=  5 | newX=  795.7534 | newY=  478.9117
+particle=  6 | newX= 1150.4394 | newY=  497.6506
+particle=  7 | newX= 1155.0197 | newY=  498.2566
+particle=  8 | newX= 1159.6105 | newY=  498.8661
+particle=  9 | newX= 1164.2118 | newY=  499.4788
+STEP  46 | DAY  940
+particle=  0 | newX= 1121.2075 | newY=  482.3205
+particle=  1 | newX= 1125.7054 | newY=  482.9286
+particle=  2 | newX= 1130.2145 | newY=  483.5424
+particle=  3 | newX= 1134.7347 | newY=  484.1614
+particle=  4 | newX= 1139.2662 | newY=  484.7853
+particle=  5 | newX=  795.8454 | newY=  467.0051
+particle=  6 | newX= 1148.3631 | newY=  486.0466
+particle=  7 | newX= 1152.9284 | newY=  486.6832
+particle=  8 | newX= 1157.5049 | newY=  487.3235
+particle=  9 | newX= 1162.0927 | newY=  487.9669
+STEP  47 | DAY  960
+particle=  0 | newX= 1119.1764 | newY=  470.4610
+particle=  1 | newX= 1123.6538 | newY=  471.1007
+particle=  2 | newX= 1128.1432 | newY=  471.7463
+particle=  3 | newX= 1132.6448 | newY=  472.3974
+particle=  4 | newX= 1137.1584 | newY=  473.0537
+particle=  5 | newX=  795.9826 | newY=  455.0709
+particle=  6 | newX= 1146.2220 | newY=  474.3799
+particle=  7 | newX= 1150.7720 | newY=  475.0492
+particle=  8 | newX= 1155.3340 | newY=  475.7221
+particle=  9 | newX= 1159.9080 | newY=  476.3983
+STEP  48 | DAY  980
+particle=  0 | newX= 1117.0797 | newY=  458.5211
+particle=  1 | newX= 1121.5358 | newY=  459.1947
+particle=  2 | newX= 1126.0049 | newY=  459.8745
+particle=  3 | newX= 1130.4870 | newY=  460.5600
+particle=  4 | newX= 1134.9822 | newY=  461.2508
+particle=  5 | newX=  796.1700 | newY=  443.1108
+particle=  6 | newX= 1144.0116 | newY=  462.6466
+particle=  7 | newX= 1148.5459 | newY=  463.3507
+particle=  8 | newX= 1153.0931 | newY=  464.0586
+particle=  9 | newX= 1157.6531 | newY=  464.7696
+STEP  49 | DAY 1000
+particle=  0 | newX= 1114.9124 | newY=  446.4946
+particle=  1 | newX= 1119.3463 | newY=  447.2048
+particle=  2 | newX= 1123.7942 | newY=  447.9213
+particle=  3 | newX= 1128.2562 | newY=  448.6438
+particle=  4 | newX= 1132.7323 | newY=  449.3717
+particle=  5 | newX=  796.4131 | newY=  431.1268
+particle=  6 | newX= 1141.7266 | newY=  450.8421
+particle=  7 | newX= 1146.2448 | newY=  451.5836
+particle=  8 | newX= 1150.7770 | newY=  452.3288
+particle=  9 | newX= 1155.3229 | newY=  453.0772
+STEP  50 | DAY 1020
+particle=  0 | newX= 1112.6686 | newY=  434.3748
+particle=  1 | newX= 1117.0792 | newY=  435.1244
+particle=  2 | newX= 1121.5051 | newY=  435.8806
+particle=  3 | newX= 1125.9463 | newY=  436.6430
+particle=  4 | newX= 1130.4027 | newY=  437.4109
+particle=  5 | newX=  796.7180 | newY=  419.1212
+particle=  6 | newX= 1139.3611 | newY=  438.9615
+particle=  7 | newX= 1143.8629 | newY=  439.7431
+particle=  8 | newX= 1148.3798 | newY=  440.5284
+particle=  9 | newX= 1152.9115 | newY=  441.3169
+STEP  51 | DAY 1040
+particle=  0 | newX= 1110.3413 | newY=  422.1536
+particle=  1 | newX= 1114.7278 | newY=  422.9460
+particle=  2 | newX= 1119.1308 | newY=  423.7453
+particle=  3 | newX= 1123.5505 | newY=  424.5508
+particle=  4 | newX= 1127.9866 | newY=  425.3620
+particle=  5 | newX=  797.0914 | newY=  407.0970
+particle=  6 | newX= 1136.9082 | newY=  426.9993
+particle=  7 | newX= 1141.3935 | newY=  427.8243
+particle=  8 | newX= 1145.8949 | newY=  428.6528
+particle=  9 | newX= 1150.4124 | newY=  429.4843
+STEP  52 | DAY 1060
+particle=  0 | newX= 1107.9228 | newY=  409.8222
+particle=  1 | newX= 1112.2841 | newY=  410.6612
+particle=  2 | newX= 1116.6634 | newY=  411.5073
+particle=  3 | newX= 1121.0608 | newY=  412.3598
+particle=  4 | newX= 1125.4761 | newY=  413.2181
+particle=  5 | newX=  797.5406 | newY=  395.0576
+particle=  6 | newX= 1134.3602 | newY=  414.9493
+particle=  7 | newX= 1138.8287 | newY=  415.8212
+particle=  8 | newX= 1143.3147 | newY=  416.6964
+particle=  9 | newX= 1147.8181 | newY=  417.5744
+STEP  53 | DAY 1080
+particle=  0 | newX= 1105.4038 | newY=  397.3702
+particle=  1 | newX= 1109.7389 | newY=  398.2603
+particle=  2 | newX= 1114.0936 | newY=  399.1577
+particle=  3 | newX= 1118.4680 | newY=  400.0615
+particle=  4 | newX= 1122.8620 | newY=  400.9710
+particle=  5 | newX=  798.0735 | newY=  383.0069
+particle=  6 | newX= 1131.7081 | newY=  402.8047
+particle=  7 | newX= 1136.1599 | newY=  403.7274
+particle=  8 | newX= 1140.6305 | newY=  404.6533
+particle=  9 | newX= 1145.1199 | newY=  405.5817
+STEP  54 | DAY 1100
+particle=  0 | newX= 1102.7734 | newY=  384.7856
+particle=  1 | newX= 1107.0812 | newY=  385.7321
+particle=  2 | newX= 1111.4106 | newY=  386.6858
+particle=  3 | newX= 1115.7615 | newY=  387.6460
+particle=  4 | newX= 1120.1338 | newY=  388.6118
+particle=  5 | newX=  798.6989 | newY=  370.9497
+particle=  6 | newX= 1128.9416 | newY=  390.5574
+particle=  7 | newX= 1133.3767 | newY=  391.5358
+particle=  8 | newX= 1137.8322 | newY=  392.5169
+particle=  9 | newX= 1142.3081 | newY=  393.5001
+STEP  55 | DAY 1120
+particle=  0 | newX= 1100.0187 | newY=  372.0545
+particle=  1 | newX= 1104.2983 | newY=  373.0634
+particle=  2 | newX= 1108.6016 | newY=  374.0795
+particle=  3 | newX= 1112.9285 | newY=  375.1020
+particle=  4 | newX= 1117.2788 | newY=  376.1299
+particle=  5 | newX=  799.4259 | newY=  358.8916
+particle=  6 | newX= 1126.0484 | newY=  378.1987
+particle=  7 | newX= 1130.4672 | newY=  379.2379
+particle=  8 | newX= 1134.9082 | newY=  380.2795
+particle=  9 | newX= 1139.3711 | newY=  381.3225
+STEP  56 | DAY 1140
+particle=  0 | newX= 1097.1241 | newY=  359.1604
+particle=  1 | newX= 1101.3746 | newY=  360.2390
+particle=  2 | newX= 1105.6513 | newY=  361.3247
+particle=  3 | newX= 1109.9539 | newY=  362.4164
+particle=  4 | newX= 1114.2822 | newY=  363.5132
+particle=  5 | newX=  800.2648 | newY=  346.8391
+particle=  6 | newX= 1123.0143 | newY=  365.7181
+particle=  7 | newX= 1127.4175 | newY=  366.8246
+particle=  8 | newX= 1131.8447 | newY=  367.9326
+particle=  9 | newX= 1136.2957 | newY=  369.0413
+STEP  57 | DAY 1160
+particle=  0 | newX= 1094.0705 | newY=  346.0838
+particle=  1 | newX= 1098.2913 | newY=  347.2409
+particle=  2 | newX= 1102.5410 | newY=  348.4046
+particle=  3 | newX= 1106.8194 | newY=  349.5739
+particle=  4 | newX= 1111.1261 | newY=  350.7476
+particle=  5 | newX=  801.2263 | newY=  334.7996
+particle=  6 | newX= 1119.8222 | newY=  353.1041
+particle=  7 | newX= 1124.2108 | newY=  354.2850
+particle=  8 | newX= 1128.6256 | newY=  355.4664
+particle=  9 | newX= 1133.0662 | newY=  356.6476
+STEP  58 | DAY 1180
+particle=  0 | newX= 1090.8343 | newY=  332.8011
+particle=  1 | newX= 1095.0251 | newY=  334.0472
+particle=  2 | newX= 1099.2481 | newY=  335.2993
+particle=  3 | newX= 1103.5028 | newY=  336.5561
+particle=  4 | newX= 1107.7887 | newY=  337.8164
+particle=  5 | newX=  802.3220 | newY=  322.7818
+particle=  6 | newX= 1116.4515 | newY=  340.3427
+particle=  7 | newX= 1120.8271 | newY=  341.6066
+particle=  8 | newX= 1125.2315 | newY=  342.8698
+particle=  9 | newX= 1129.6638 | newY=  344.1313
+STEP  59 | DAY 1200
+particle=  0 | newX= 1087.3859 | newY=  319.2832
+particle=  1 | newX= 1091.5471 | newY=  320.6316
+particle=  2 | newX= 1095.7442 | newY=  321.9848
+particle=  3 | newX= 1099.9765 | newY=  323.3413
+particle=  4 | newX= 1104.2432 | newY=  324.6999
+particle=  5 | newX=  803.5639 | newY=  310.7958
+particle=  6 | newX= 1112.8770 | newY=  327.4179
+particle=  7 | newX= 1117.2424 | newY=  328.7752
+particle=  8 | newX= 1121.6390 | newY=  330.1299
+particle=  9 | newX= 1126.0661 | newY=  331.4811
+STEP  60 | DAY 1220
+particle=  0 | newX= 1083.6872 | newY=  305.4942
+particle=  1 | newX= 1087.8201 | newY=  306.9614
+particle=  2 | newX= 1091.9932 | newY=  308.4315
+particle=  3 | newX= 1096.2055 | newY=  309.9029
+particle=  4 | newX= 1100.4560 | newY=  311.3741
+particle=  5 | newX=  804.9650 | newY=  298.8529
+particle=  6 | newX= 1109.0676 | newY=  314.3108
+particle=  7 | newX= 1113.4266 | newY=  315.7737
+particle=  8 | newX= 1117.8197 | newY=  317.2316
+particle=  9 | newX= 1122.2458 | newY=  318.6835
+STEP  61 | DAY 1240
+particle=  0 | newX= 1079.6880 | newY=  291.3885
+particle=  1 | newX= 1083.7958 | newY=  292.9956
+particle=  2 | newX= 1087.9486 | newY=  294.6027
+particle=  3 | newX= 1092.1453 | newY=  296.2081
+particle=  4 | newX= 1096.3843 | newY=  297.8101
+particle=  5 | newX=  806.5383 | newY=  286.9664
+particle=  6 | newX= 1104.9844 | newY=  300.9983
+particle=  7 | newX= 1109.3427 | newY=  302.5820
+particle=  8 | newX= 1113.7382 | newY=  304.1574
+particle=  9 | newX= 1118.1693 | newY=  305.7234
+STEP  62 | DAY 1260
+particle=  0 | newX= 1075.3204 | newY=  276.9064
+particle=  1 | newX= 1079.4091 | newY=  278.6815
+particle=  2 | newX= 1083.5485 | newY=  280.4518
+particle=  3 | newX= 1087.7368 | newY=  282.2157
+particle=  4 | newX= 1091.9722 | newY=  283.9714
+particle=  5 | newX=  808.2974 | newY=  275.1509
+particle=  6 | newX= 1100.5772 | newY=  287.4529
+particle=  7 | newX= 1104.9433 | newY=  289.1761
+particle=  8 | newX= 1109.3497 | newY=  290.8863
+particle=  9 | newX= 1113.7946 | newY=  292.5825
+STEP  63 | DAY 1280
+particle=  0 | newX= 1070.4892 | newY=  261.9683
+particle=  1 | newX= 1074.5702 | newY=  263.9490
+particle=  2 | newX= 1078.7081 | newY=  265.9177
+particle=  3 | newX= 1082.9004 | newY=  267.8727
+particle=  4 | newX= 1087.1447 | newY=  269.8122
+particle=  5 | newX=  810.2559 | newY=  263.4234
+particle=  6 | newX= 1095.7802 | newY=  273.6402
+particle=  7 | newX= 1100.1670 | newY=  275.5265
+particle=  8 | newX= 1104.5969 | newY=  277.3933
+particle=  9 | newX= 1109.0680 | newY=  279.2399
+STEP  64 | DAY 1300
+particle=  0 | newX= 1065.0545 | newY=  246.4623
+particle=  1 | newX= 1069.1488 | newY=  248.7024
+particle=  2 | newX= 1073.3064 | newY=  250.9183
+particle=  3 | newX= 1077.5239 | newY=  253.1087
+particle=  4 | newX= 1081.7981 | newY=  255.2725
+particle=  5 | newX=  812.4272 | newY=  251.8025
+particle=  6 | newX= 1090.5048 | newY=  259.5173
+particle=  7 | newX= 1094.9317 | newY=  261.5971
+particle=  8 | newX= 1099.4041 | newY=  263.6481
+particle=  9 | newX= 1103.9197 | newY=  265.6701
+STEP  65 | DAY 1320
+particle=  0 | newX= 1058.7979 | newY=  230.2244
+particle=  1 | newX= 1062.9460 | newY=  232.8037
+particle=  2 | newX= 1067.1624 | newY=  235.3379
+particle=  3 | newX= 1071.4426 | newY=  237.8272
+particle=  4 | newX= 1075.7825 | newY=  240.2718
+particle=  5 | newX=  814.8242 | newY=  240.3093
+particle=  6 | newX= 1084.6270 | newY=  245.0288
+particle=  7 | newX= 1089.1249 | newY=  247.3422
+particle=  8 | newX= 1093.6689 | newY=  249.6133
+particle=  9 | newX= 1098.2565 | newY=  251.8427
+STEP  66 | DAY 1340
+particle=  0 | newX= 1051.3482 | newY=  212.9947
+particle=  1 | newX= 1055.6335 | newY=  216.0418
+particle=  2 | newX= 1059.9853 | newY=  219.0052
+particle=  3 | newX= 1064.3987 | newY=  221.8891
+particle=  4 | newX= 1068.8692 | newY=  224.6974
+particle=  5 | newX=  817.4587 | newY=  228.9668
+particle=  6 | newX= 1077.9659 | newY=  230.1012
+particle=  7 | newX= 1082.5851 | newY=  232.7030
+particle=  8 | newX= 1087.2472 | newY=  235.2420
+particle=  9 | newX= 1091.9496 | newY=  237.7208
+STEP  67 | DAY 1360
+particle=  0 | newX= 1041.9882 | newY=  194.3166
+particle=  1 | newX= 1046.6054 | newY=  198.0627
+particle=  2 | newX= 1051.2606 | newY=  201.6449
+particle=  3 | newX= 1055.9531 | newY=  205.0802
+particle=  4 | newX= 1060.6816 | newY=  208.3825
+particle=  5 | newX=  820.3414 | newY=  217.8003
+particle=  6 | newX= 1070.2411 | newY=  214.6340
+particle=  7 | newX= 1075.0690 | newY=  217.6018
+particle=  8 | newX= 1079.9270 | newY=  220.4746
+particle=  9 | newX= 1084.8136 | newY=  223.2591
+STEP  68 | DAY 1380
+Particle=  0 is halted at position ( 1041.9882,   194.3166) due to being close to well 1
+ALERT for particle  0 at position ( 1174.8700,   932.4182) would contamine well  1 within 6 months.
